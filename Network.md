@@ -99,8 +99,14 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 * DOM을 제어해서 서버로부터 리턴받은 데이터를 가지고 렌더링함
 
 #### AJAX사용하면 좋은 점
-* 비동기 통신의 이점 : ㅗ
+* 비동기 통신의 이점 : 통신 후 데이터 바인딩하는 동안 사용자가 어플리케이션을 사용할 수 있음
+* 전체 페이지 로딩시 모든 데이터를 서버로부터 받는 것이 아니라 필요한 부분을 그때마다 일부분 렌더링 시키는 것이 가능
+* 일부 데이터를 위해 클라이언트가 전체 페이지를 요청하지 않아도 됨
+
+#### 동작방식
+1. 서버로 정보 요청 : 이벤트 발생 -> 핸들러 함수 호출 -> 서버 요청 객체 생성 및 메서드 호출
+2. 서버 내부 처리 후 응담 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDc0NzAxMiwtMTE4NDI4NzIzNiwtMz
+eyJoaXN0b3J5IjpbLTI2NzQ1MDU2MywtMTE4NDI4NzIzNiwtMz
 kwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
 -->
