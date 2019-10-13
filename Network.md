@@ -74,10 +74,10 @@
 * 상태(정보) 전달
 	* 데이터가 요청되어지는 시점에서 자원의 상태(정보)를 전달한다.
 	* JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적이다.
-	* 
+	* REST는 기본적으로 웹의 기존 기술과 HTTP 프로토콜을 그대로 활용하기 때문에 웹의 장점을 치대한 활용할 수 있는 아키텍쳐 스타일이다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkwODI2NTBdfQ==
+eyJoaXN0b3J5IjpbNjIyNDQwMTA3LC0yMDA5MDgyNjUwXX0=
 -->
