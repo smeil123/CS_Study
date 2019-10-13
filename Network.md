@@ -73,10 +73,11 @@
 	* 예 : DB의 학생 정보가 자원일 때, "students"를 자원의 표현으로 정한다.
 * 상태(정보) 전달
 	* 데이터가 요청되어지는 시점에서 자원의 상태(정보)를 전달한다.
+	* JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적이다.
 	* 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTA1ODcxNF19
+eyJoaXN0b3J5IjpbLTIwMDkwODI2NTBdfQ==
 -->
