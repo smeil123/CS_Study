@@ -68,10 +68,15 @@
 #### REST ( Representational State Transfer )
 * 자원을 이름으로 구분하여 해당 자원의 상태를 주고 받는 모든 것을 의미한다.
 * 즉, 자원의 표현에 의한 전달
-* 
+	* 자원 : 해당 소프트웨어가 관리하는 모든 것
+	* 자원의 표현 : 그 자원을 표현하기 위한 이름
+	* 예 : DB의 학생 정보가 자원일 때, "students"를 자원의 표현으로 정한다.
+* 상태(정보) 전달
+	* 데이터가 요청되어지는 시점에서 자원의 상태(정보)를 전달한다.
+	* 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzMDcwNDAxXX0=
+eyJoaXN0b3J5IjpbMTc5OTA1ODcxNF19
 -->
