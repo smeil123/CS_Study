@@ -63,7 +63,8 @@
 #### Slotted Aloha
 * 시간을 정해놓고 전송
 ## TDMA
-* 시간축을 나눠서 각 사용자는 자기에게
+* 시간축을 나눠서 각 사용자는 자기에게 할당된 시간 구간에만 전송
+* 
 
 ## Network Coding
 
@@ -120,6 +121,6 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTAwNTIyMzUsLTExMzUyODI5MTAsLT
-ExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF19
+eyJoaXN0b3J5IjpbLTQ1MTI2NDMxOSwtMTEzNTI4MjkxMCwtMT
+E4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
 -->
