@@ -64,12 +64,14 @@
 * HyperText Transper Protocol
 * 클라이언트와 서버가 요청을 하고 응답을 하기위해 따르는 프로토콜
 * 집에서 정리하기
-### Rest API
-* HTTP의 장점을 살릴 수 있는 네트워크 기반 아키텍처
+### REST API
+#### REST ( Representational State Transfer )
+* 자원을 이름으로 구분하여 해당 자원의 상태를 주고 받는 모든 것을 의미한다.
+* 즉, 자원의 표현에 의한 전달
 * 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTc0Nzk3NV19
+eyJoaXN0b3J5IjpbNzAzMDcwNDAxXX0=
 -->
