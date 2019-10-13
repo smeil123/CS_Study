@@ -52,7 +52,9 @@
 * UDP는 이러한 특성때문에 안정적이지 않은 프로토콜이다. 하지만 TCP에 비해서 속도가 빠른편이기에 데이터의 유실이 일어나도 큰 상관이 없는 스트리밍이나 화면전송에 사용된다.
 
 ## Aloha
-
+* 발생노드가 패킷을 전송하면, 수신노드는 유효한 패킷인가를 확인하고 즉시 ACK 발송
+* 송신노드는 ACK가 올때까지 기다리다가, 최대왕복 전파지연 시간 이상이되면 해당 패킷을 재 전송하는 방법
+* 만일 동시에 여러 노드
 ## TDMA
 
 ## Network Coding
@@ -110,6 +112,6 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUyODI5MTAsLTExODQyODcyMzYsLT
-M5MDY1NjIwNSwtMjAwOTA4MjY1MF19
+eyJoaXN0b3J5IjpbLTExOTMzMzA1OTMsLTExMzUyODI5MTAsLT
+ExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF19
 -->
