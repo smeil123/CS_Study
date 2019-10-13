@@ -59,9 +59,11 @@
 
 #### Pure Aloha
 * 충돌방지를 위한 고려사항으로 임의 대기 시간을 줌
-* 최대 재존송 회수를 제한
+* 최대 재전송 회수를 제한
 #### Slotted Aloha
 * 시간을 정해놓고 전송
+* 예를 들면 1초단위) 0초에 받았으면 다음 slot인 1초에 전송
+* 
 ## TDMA
 * 시간축을 나눠서 각 사용자는 자기에게 할당된 시간 구간에만 전송
 * 
@@ -121,6 +123,7 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTI2NDMxOSwtMTEzNTI4MjkxMCwtMT
-E4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
+eyJoaXN0b3J5IjpbOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMz
+UyODI5MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4
+MjY1MF19
 -->
