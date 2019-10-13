@@ -73,11 +73,14 @@
 #### REST의 특징
 1. Uniform
 Uniform interface는 URI로 지정한 리소스에 대한 조작을 통일되고 한정적인 인터페이스로 수행하는 아키텍처 스타일을 말한다
-2. Stateless (무상태성)
-작업을
+2. Stateless (무상태성) -> http의 특징이기도 하다
+작업을 위한 상태정보를 따로 저장하고 관리하지 않는다. 세션 정보나 쿠키정보를 별로로 저장하고 관리하지 않기 때문에 API서버는 들어오는 요청만을 단순히 처리하면 된다. 때문에 서비스의 자유도가 높아지고 서버에서 불필요한 정보를 관리하지 않음으로써 구현이 단순해진다. -
+3. Cacheable (캐시가능)
+HTTP라는 기존 웹 표준을 그대로 사용하기 때문에 웹에서 사용하는 기존 인프라를 그대로 활용가능하다. 따라서 HTTP가 가
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTY4NjYxNiwtMzkwNjU2MjA1LC0yMD
-A5MDgyNjUwXX0=
+eyJoaXN0b3J5IjpbOTUxNTU1NDkzLC0zOTA2NTYyMDUsLTIwMD
+kwODI2NTBdfQ==
 -->
