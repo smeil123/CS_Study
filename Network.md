@@ -76,11 +76,16 @@ Uniform interface는 URI로 지정한 리소스에 대한 조작을 통일되고
 2. Stateless (무상태성) -> http의 특징이기도 하다
 작업을 위한 상태정보를 따로 저장하고 관리하지 않는다. 세션 정보나 쿠키정보를 별로로 저장하고 관리하지 않기 때문에 API서버는 들어오는 요청만을 단순히 처리하면 된다. 때문에 서비스의 자유도가 높아지고 서버에서 불필요한 정보를 관리하지 않음으로써 구현이 단순해진다. -
 3. Cacheable (캐시가능)
-HTTP라는 기존 웹 표준을 그대로 사용하기 때문에 웹에서 사용하는 기존 인프라를 그대로 활용가능하다. 따라서 HTTP가 가
+HTTP라는 기존 웹 표준을 그대로 사용하기 때문에 웹에서 사용하는 기존 인프라를 그대로 활용가능하다. 따라서 HTTP가 가진 캐싱 기능이 적용 가능하다. HTTP프로토콜 표준에서 사용하는 Last-Modified태그나 E-tag를 이용하면 캐싱 구현이 가능하다.
+4. Self-descriptiveness
+REST의 또 다른 큰 특징 중 하나는 REST API메시지만 보고도 이를 쉽게 이해할 수 있는 자체 표현 구조로 되어 있다는 것이다.
+5. Client - Server구조
+REST 서버는 API제공,
+6. 계층형 구조
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxNTU1NDkzLC0zOTA2NTYyMDUsLTIwMD
-kwODI2NTBdfQ==
+eyJoaXN0b3J5IjpbLTU5MDgzODkwMiwtMzkwNjU2MjA1LC0yMD
+A5MDgyNjUwXX0=
 -->
