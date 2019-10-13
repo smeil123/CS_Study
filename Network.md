@@ -63,7 +63,7 @@
 #### Slotted Aloha
 * 시간을 정해놓고 전송
 * 예를 들면 1초단위) 0초에 받았으면 다음 slot인 1초에 전송
-* 
+* 전송횟수를
 ## TDMA
 * 시간축을 나눠서 각 사용자는 자기에게 할당된 시간 구간에만 전송
 * 
@@ -123,7 +123,7 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMz
-UyODI5MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4
-MjY1MF19
+eyJoaXN0b3J5IjpbODEwNzU1MjY2LDk0MzMwOTM1OCwtNDUxMj
+Y0MzE5LC0xMTM1MjgyOTEwLC0xMTg0Mjg3MjM2LC0zOTA2NTYy
+MDUsLTIwMDkwODI2NTBdfQ==
 -->
