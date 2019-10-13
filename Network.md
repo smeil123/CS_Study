@@ -80,12 +80,13 @@ HTTP라는 기존 웹 표준을 그대로 사용하기 때문에 웹에서 사�
 4. Self-descriptiveness
 REST의 또 다른 큰 특징 중 하나는 REST API메시지만 보고도 이를 쉽게 이해할 수 있는 자체 표현 구조로 되어 있다는 것이다.
 5. Client - Server구조
-REST 서버는 API제공,
+REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로그인 정보등을 직접 관리하는 구조로 각각의 역할이 확실히 구분되기 때문에 클라이언트와 서버에서 개발해야 할 내용이 명확해지고 서로간 의존성이 줄어들게 된다.
 6. 계층형 구조
+서버는 다중 계층으로 구성될 수 있으며 보안,로드 밸런싱, 암호화 계층을 추가해 구조상의 유연성을 둘 수 있고, Proxy, gateway같은 네트워크 기반의 중간매체를 사용할 수 있게 한다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDgzODkwMiwtMzkwNjU2MjA1LC0yMD
-A5MDgyNjUwXX0=
+eyJoaXN0b3J5IjpbLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMj
+AwOTA4MjY1MF19
 -->
