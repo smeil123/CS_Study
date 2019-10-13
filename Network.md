@@ -54,8 +54,16 @@
 ## Aloha
 * 발생노드가 패킷을 전송하면, 수신노드는 유효한 패킷인가를 확인하고 즉시 ACK 발송
 * 송신노드는 ACK가 올때까지 기다리다가, 최대왕복 전파지연 시간 이상이되면 해당 패킷을 재 전송하는 방법
-* 만일 동시에 여러 노드
+* 만일 동시에 여러 노드가 패킷을 보내면 충돌이 발생
+	* 수신노드는 해당 패킷을 무시
+
+#### Pure Aloha
+* 충돌방지를 위한 고려사항으로 임의 대기 시간을 줌
+* 최대 재존송 회수를 제한
+#### Slotted Aloha
+* 시간을 정해놓고 전송
 ## TDMA
+* 시간축을 나눠서 각 사용자는 자기에게
 
 ## Network Coding
 
@@ -112,6 +120,6 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTMzMzA1OTMsLTExMzUyODI5MTAsLT
+eyJoaXN0b3J5IjpbLTE0NTAwNTIyMzUsLTExMzUyODI5MTAsLT
 ExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF19
 -->
