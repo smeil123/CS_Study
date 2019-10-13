@@ -84,9 +84,9 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 6. 계층형 구조
 서버는 다중 계층으로 구성될 수 있으며 보안,로드 밸런싱, 암호화 계층을 추가해 구조상의 유연성을 둘 수 있고, Proxy, gateway같은 네트워크 기반의 중간매체를 사용할 수 있게 한다.
 
-
-
+#### REST  API 중심 규칙
+1. URI는 정보으 ㅣ자
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMj
-AwOTA4MjY1MF19
+eyJoaXN0b3J5IjpbLTU3MDA2MzYzMywtMTE4NDI4NzIzNiwtMz
+kwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
 -->
