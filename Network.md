@@ -61,9 +61,14 @@
 ### Post와 Get
 
 ### HTTP
-
+* HyperText Transper Protocol
+* 클라이언트와 서버가 요청을 하고 응답을 하기위해 따르는 프로토콜
+* 집에서 정리하기
 ### Rest API
+* HTTP 
 
 
 
-
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDkzNDY1MDYzXX0=
+-->
