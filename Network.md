@@ -94,8 +94,13 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 
 ## Ajax란?
 * 자바스크립트를 이용해서 비동기적으로 브라우저와 서버가 데이터를 주고 받는 형식 (네워크 통신 방식)
-* Asynchronous Javascript and XML : 자바스크ㄹ
+* Asynchronous Javascript and XML : 자바스크립트로 비동기 통신을 하고, XML 형식으로 데이터 리턴을 받는다는 뜻
+* XML, JSON 형식 사용 가능
+* DOM을 제어해서 서버로부터 리턴받은 데이터를 가지고 렌더링함
+
+#### AJAX사용하면 좋은 점
+* 비동기 통신의 이점 : ㅗ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3Mjg3OTUsLTExODQyODcyMzYsLTM5MD
-Y1NjIwNSwtMjAwOTA4MjY1MF19
+eyJoaXN0b3J5IjpbLTQ1MDc0NzAxMiwtMTE4NDI4NzIzNiwtMz
+kwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
 -->
