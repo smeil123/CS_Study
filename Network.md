@@ -105,8 +105,11 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 
 #### 동작방식
 1. 서버로 정보 요청 : 이벤트 발생 -> 핸들러 함수 호출 -> 서버 요청 객체 생성 및 메서드 호출
-2. 서버 내부 처리 후 응담 
+2. 서버 내부 처리 후 응담 : json 또는 xml 형태로 데이터 전달
+3. 응답을 받으면 이벤트 발생, 이벤트의 콜백함수 호출
+	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzQ1MDU2MywtMTE4NDI4NzIzNiwtMz
-kwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
+eyJoaXN0b3J5IjpbLTExMzUyODI5MTAsLTExODQyODcyMzYsLT
+M5MDY1NjIwNSwtMjAwOTA4MjY1MF19
 -->
