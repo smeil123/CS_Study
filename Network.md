@@ -89,9 +89,9 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 2. 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
 
 ### RESTful
-이러한 REST API의 설계 의도를 정확하게 지켜주는 API를 'RESTful하다
+이러한 REST API의 설계 의도를 정확하게 지켜주는 API를 'RESTful하다'라고 부른다. URI는 자원을 정확하고 인식하기 편하게 표현하는데에 집중하고, 자원에 대한 행위는 Uniform하게 HTTP메소드를 통해 정의한다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NTY3NjQsLTExODQyODcyMzYsLTM5MD
-Y1NjIwNSwtMjAwOTA4MjY1MF19
+eyJoaXN0b3J5IjpbMjA0NzE4NTYyNSwtMTE4NDI4NzIzNiwtMz
+kwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
 -->
