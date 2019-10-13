@@ -85,8 +85,13 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 서버는 다중 계층으로 구성될 수 있으며 보안,로드 밸런싱, 암호화 계층을 추가해 구조상의 유연성을 둘 수 있고, Proxy, gateway같은 네트워크 기반의 중간매체를 사용할 수 있게 한다.
 
 #### REST  API 중심 규칙
-1. URI는 정보으 ㅣ자
+1. URI는 정보의 자원을 표현해야한다. (행위를 표현하는 것이 X)
+2. 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
+
+### RESTful
+이러한 REST API의 설계 의도를 정확하게 지켜주는 API를 'RESTful하다
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDA2MzYzMywtMTE4NDI4NzIzNiwtMz
-kwNjU2MjA1LC0yMDA5MDgyNjUwXX0=
+eyJoaXN0b3J5IjpbODA0NTY3NjQsLTExODQyODcyMzYsLTM5MD
+Y1NjIwNSwtMjAwOTA4MjY1MF19
 -->
