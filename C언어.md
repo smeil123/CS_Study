@@ -29,9 +29,9 @@ ZXCV
 * 특정 사이즈의 배열만 가리킬 수 있는 포인터이다
 
 ```c
-char (*arr)[3];
+char (*arr)[3]; //크기가 3인 char배열을 가리킬 수 있는 포인터 생성
 char tmp1[3] = {'a','b','c'};
-char tmp2[3] = {'d','e','\0'}; //문자열의 끝을 알리는 '\0'추ㅏ
+char tmp2[3] = {'d','e','\0'}; //문자열의 끝을 알리는 '\0'추가
 
 arr = &tmp1;
 printf("%s\n", (*arr)); //abc\335\227_\337
@@ -42,8 +42,10 @@ for(int i=0; i<(int)sizeof(*arr); i++)
 
 arr = &tmp2;
 printf("%s\n", (*arr)); // de
-printf(
-
+for(int i=0; i<(int)sizeof(*arr); i++)
+{
+	printf("%c",(*arr)[i]);
+} // de
 ```
 
 ## 동적할당
@@ -89,6 +91,6 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjExNjQ1NywtNTYwNDczNzc4LC0xOD
-M3MzM3OTk4XX0=
+eyJoaXN0b3J5IjpbNDA4MTc0MDA2LC01NjA0NzM3NzgsLTE4Mz
+czMzc5OThdfQ==
 -->
