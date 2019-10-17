@@ -15,6 +15,16 @@ int *i = (int*) malloc (sizeof(int));
 ### calloc
 
 ### realloc
+
+### free
+힙 영역에 할당된 메모리를 해제하는 함수
+```c
+#include <stdilb.h>
+void free(void* ptr)
+
+int *arr;
+arr = (int*) malloc(sizeof(int)*
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ2Mzg3OF19
+eyJoaXN0b3J5IjpbOTk0Nzc3M119
 -->
