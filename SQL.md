@@ -27,10 +27,10 @@ HAVING COUNT(NAME) >= 2
 * 9시에서 19시 사이의 데이터 갯수를 출력
 ```sql
 -- 코드를 입력하세요
-SELECT CAST(DATE_FORMAT(DATETIME,'%H') AS unsigned), COUNT(*)
-FROM ANIMAL_OUTS
-WHERE CAST(DATE_FORMAT(DATETIME,'%H') AS unsigned) BETWEEN 9 AND 19
-GROUP BY CAST(DATE_FORMAT(DATETIME,'%H') AS unsigned)
+select hour(`datetime`),count(*)
+from animal_outs
+where hour(`datetime`) between 9 and 19
+group by hour(`datetime`)
 ```
 
 * 0시부터 23시까지 각 시간대별로 입양건수를 조회
@@ -44,7 +44,7 @@ from animal_outs
 where @hour < 23
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTAxMTA2OSwyNzU2MTM2MSwtOTc4ND
-I1MDM3LDU3MzY5NTQ0NywtMTY1MjcyNTI2NCwyMDMwMjgwNzld
-fQ==
+eyJoaXN0b3J5IjpbMjA3OTMyMTY1NywtOTQ1MDExMDY5LDI3NT
+YxMzYxLC05Nzg0MjUwMzcsNTczNjk1NDQ3LC0xNjUyNzI1MjY0
+LDIwMzAyODA3OV19
 -->
