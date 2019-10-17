@@ -34,7 +34,16 @@ char tmp1[3] = {'a','b','c'};
 char tmp2[3] = {'d','e','\0'}; //문자열의 끝을 알리는 '\0'추ㅏ
 
 arr = &tmp1;
-printf("%s\n", (*arr)); -
+printf("%s\n", (*arr)); //abc\335\227_\337
+for(int i=0; i<(int)sizeof(*arr); i++)
+{
+	printf("%c",(*arr)[i]);
+} // abc
+
+arr = &tmp2;
+printf("%s\n", (*arr)); // de
+printf(
+
 ```
 
 ## 동적할당
@@ -80,6 +89,6 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjAwNTM5MTAsLTU2MDQ3Mzc3OCwtMT
-gzNzMzNzk5OF19
+eyJoaXN0b3J5IjpbMTkzMjExNjQ1NywtNTYwNDczNzc4LC0xOD
+M3MzM3OTk4XX0=
 -->
