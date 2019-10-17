@@ -7,8 +7,20 @@
 ```c
 char* arr[3];
 arr[0] = "ASDF";
-arr[1
+arr[1] = "QWER";
+arr[2] = "ZXCV";
+
+for(int i=0; i<3; i++){
+	printf("%s\n", arr[i]);
+}
 ```
+```
+ASDF
+QWER
+ZXCV
+```
+
+arr는 char*
 
 ## 동적할당
 ### malloc
@@ -53,6 +65,6 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ5Mzc4OSwtNTYwNDczNzc4LC0xOD
-M3MzM3OTk4XX0=
+eyJoaXN0b3J5IjpbLTEwMTAxMzA1NjcsLTU2MDQ3Mzc3OCwtMT
+gzNzMzNzk5OF19
 -->
