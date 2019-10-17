@@ -13,6 +13,14 @@ int *i = (int*) malloc (sizeof(int));
 * malloc은 단순히 메모리만 할당하는 함수이기 때문에 어떤 void포인터를 반환해 형변환을 해주어야한다 -> (int *)
 
 ### calloc
+malloc과 같은 기능이지만 형태가 조금 다르다 + 0으로 초기화해준다.
+```c
+#include <stdlilb.h>
+void* calloc(size_t elt_count, size_t elt_size)
+
+int * arr;
+arr = (int*) calloc(5,sizeof(int));
+```
 
 ### realloc
 
@@ -23,8 +31,9 @@ int *i = (int*) malloc (sizeof(int));
 void free(void* ptr)
 
 int *arr;
-arr = (int*) malloc(sizeof(int)*
+arr = (int*) malloc(sizeof(int)*5);
+free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0Nzc3M119
+eyJoaXN0b3J5IjpbLTE2NDQwNDU3MjhdfQ==
 -->
