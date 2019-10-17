@@ -1,7 +1,14 @@
 
 
 ## 포인터 배열, 배열 포인터
-
+### 포인터 배열
+* 포인터들의 배열이다
+* 배열의 요소가 포인터들로 이루어져있다.
+```c
+char* arr[3];
+arr[0] = "ASDF";
+arr[1
+```
 
 ## 동적할당
 ### malloc
@@ -46,5 +53,6 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDQ3Mzc3OCwtMTgzNzMzNzk5OF19
+eyJoaXN0b3J5IjpbLTE1ODQ5Mzc4OSwtNTYwNDczNzc4LC0xOD
+M3MzM3OTk4XX0=
 -->
