@@ -27,7 +27,15 @@ ZXCV
 ### 배열 포인터
 * 배열을 가리키는 포인터
 * 특정 사이즈의 배열만 가리킬 수 있는 포인터이다
-* 
+
+```c
+char (*arr)[3];
+char tmp1[3] = {'a','b','c'};
+char tmp2[3] = {'d','e','\0'}; //문자열의 끝을 알리는 '\0'추ㅏ
+
+arr = &tmp1;
+printf("%s\n", (*arr)); -
+```
 
 ## 동적할당
 ### malloc
@@ -72,6 +80,6 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjgyNzMwMCwtNTYwNDczNzc4LC0xOD
-M3MzM3OTk4XX0=
+eyJoaXN0b3J5IjpbLTEwMjAwNTM5MTAsLTU2MDQ3Mzc3OCwtMT
+gzNzMzNzk5OF19
 -->
