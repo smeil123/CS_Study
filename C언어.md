@@ -7,12 +7,14 @@
 ```c
 #include <stdlib.h>
 void* malloc(size_t size)
-```
 
+int *i = (int*) malloc (sizeof(int));
+```
+* malloc은 단순히 메모리만 할당하는 함수이기 때문에 어떤 void포인터를 반환해 형변환을 해주어야한다 -> (int *)
 
 ### calloc
 
 ### realloc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzQ4NjkzOF19
+eyJoaXN0b3J5IjpbLTEzNzQ2Mzg3OF19
 -->
