@@ -33,9 +33,18 @@ WHERE CAST(DATE_FORMAT(DATETIME,'%H') AS unsigned) BETWEEN 9 AND 19
 GROUP BY CAST(DATE_FORMAT(DATETIME,'%H') AS unsigned)
 ```
 
-* 
+* 0시부터 23시까지 각 시간대별로 입양건수를 조회
+```sql
+-- 코드를 입력하세요
+set @hour = -1;
+select
+    (@hour := @hour +1) as HOUR,
+    (select count(*) from animal_outs where hour(`datetime`) = @hour) as `COUNT`
+from animal_outs 
+where @hour < 23
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgyNDQwNDEsMjc1NjEzNjEsLTk3OD
-QyNTAzNyw1NzM2OTU0NDcsLTE2NTI3MjUyNjQsMjAzMDI4MDc5
-XX0=
+eyJoaXN0b3J5IjpbLTk0NTAxMTA2OSwyNzU2MTM2MSwtOTc4ND
+I1MDM3LDU3MzY5NTQ0NywtMTY1MjcyNTI2NCwyMDMwMjgwNzld
+fQ==
 -->
