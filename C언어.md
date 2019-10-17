@@ -20,7 +20,14 @@ QWER
 ZXCV
 ```
 
-arr는 char*
+* arr는 char포인터를 담는다. 
+* arr -> [ char *, char*, char* ]
+* arr[0] == char* -> "ASDF"
+
+### 배열 포인터
+* 배열을 가리키는 포인터
+* 특정 사이즈의 배열만 가리킬 수 있는 포인터이다
+* 
 
 ## 동적할당
 ### malloc
@@ -65,6 +72,6 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAxMzA1NjcsLTU2MDQ3Mzc3OCwtMT
-gzNzMzNzk5OF19
+eyJoaXN0b3J5IjpbLTc1MjgyNzMwMCwtNTYwNDczNzc4LC0xOD
+M3MzM3OTk4XX0=
 -->
