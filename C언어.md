@@ -1,5 +1,7 @@
 
 
+## 포인터 배열, 배열 포인터
+
 
 ## 동적할당
 ### malloc
@@ -44,5 +46,5 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzczMzc5OThdfQ==
+eyJoaXN0b3J5IjpbLTU2MDQ3Mzc3OCwtMTgzNzMzNzk5OF19
 -->
