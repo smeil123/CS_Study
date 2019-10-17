@@ -23,6 +23,15 @@ arr = (int*) calloc(5,sizeof(int));
 ```
 
 ### realloc
+이미 할당된 공간의 크기를 바꿀 때 realloc함수를 사용한다.
+```c
+ #include <stdilb.h>
+ void *realloc(void* memeblock, size_t size);
+ int *arr;
+
+ arr = (int*) malloc(sizeof(int)*5);
+ realloc(arr, sizeof(int)*10); // 메모리를 40byte로 재할당
+```
 
 ### free
 힙 영역에 할당된 메모리를 해제하는 함수
@@ -35,5 +44,5 @@ arr = (int*) malloc(sizeof(int)*5);
 free(arr);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQwNDU3MjhdfQ==
+eyJoaXN0b3J5IjpbLTE4MzczMzc5OThdfQ==
 -->
