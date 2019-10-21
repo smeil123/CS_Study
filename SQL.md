@@ -1,7 +1,9 @@
 
 
 
-
+> sql연습:[https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
+> 
+> 
 * 이름이 null이 아니며 중복되지 않은 이름의 개수
 ```sql
 SELECT COUNT(DISTINCT NAME)
@@ -116,8 +118,9 @@ FROM ANIMAL_INS
 ORDER BY ANIMAL_ID;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU5NzIwMywtNzE2OTA2NDI2LC0yMD
-U5NjM2NTcyLC05MTM5NzE2MSwyMTM1Njc4MDUyLDIwNzkzMjE2
-NTcsLTk0NTAxMTA2OSwyNzU2MTM2MSwtOTc4NDI1MDM3LDU3Mz
-Y5NTQ0NywtMTY1MjcyNTI2NCwyMDMwMjgwNzldfQ==
+eyJoaXN0b3J5IjpbLTE5MzMzNzU5NywtMTc2NTk3MjAzLC03MT
+Y5MDY0MjYsLTIwNTk2MzY1NzIsLTkxMzk3MTYxLDIxMzU2Nzgw
+NTIsMjA3OTMyMTY1NywtOTQ1MDExMDY5LDI3NTYxMzYxLC05Nz
+g0MjUwMzcsNTczNjk1NDQ3LC0xNjUyNzI1MjY0LDIwMzAyODA3
+OV19
 -->
