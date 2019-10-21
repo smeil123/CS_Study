@@ -56,9 +56,21 @@ ORDER BY DATETIME
 LIMIT 3;
 ```
 
-* 
+* 보호소에 들어올땐 중성화 되지 않았지만 나갈땐 중성화된 동물
+```sql
+-- 코드를 입력하세요
+SELECT A.ANIMAL_ID, A.ANIMAL_TYPE, A.NAME
+FROM ANIMAL_OUTS AS A
+WHERE A.SEX_UPON_OUTCOME IN ("Spayed Female","Spayed Male","Neutered Male","Neutered Male")
+AND EXISTS (SELECT B.ANIMAL_ID
+              FROM ANIMAL_INS AS B
+              WHERE B.ANIMAL_ID = A.ANIMAL_ID
+              AND B.SEX_UPON_INTAKE IN ('Intact Male','Intact Female'))
+ORDER BY A.ANIMAL_ID;
+        
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDYxNzY1NCwyMTM1Njc4MDUyLDIwNz
-kzMjE2NTcsLTk0NTAxMTA2OSwyNzU2MTM2MSwtOTc4NDI1MDM3
-LDU3MzY5NTQ0NywtMTY1MjcyNTI2NCwyMDMwMjgwNzldfQ==
+eyJoaXN0b3J5IjpbLTkxMzk3MTYxLDIxMzU2NzgwNTIsMjA3OT
+MyMTY1NywtOTQ1MDExMDY5LDI3NTYxMzYxLC05Nzg0MjUwMzcs
+NTczNjk1NDQ3LC0xNjUyNzI1MjY0LDIwMzAyODA3OV19
 -->
