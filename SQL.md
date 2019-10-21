@@ -78,10 +78,17 @@ FROM ANIMAL_INS
 ORDER BY ANIMAL_ID;
 ```
 
-8 
+* 특정 TEXT가 포함하면 O,X로 표시하기
+```sql
+-- 코드를 입력하세요
+SELECT ANIMAL_ID, NAME, IF(sex_upon_intake LIKE 'Neutered%' 
+           OR sex_upon_intake LIKE 'Spayed%', 'O', 'X') AS '중성화' 
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5NTgxNDY0LC0yMDU5NjM2NTcyLC05MT
-M5NzE2MSwyMTM1Njc4MDUyLDIwNzkzMjE2NTcsLTk0NTAxMTA2
-OSwyNzU2MTM2MSwtOTc4NDI1MDM3LDU3MzY5NTQ0NywtMTY1Mj
-cyNTI2NCwyMDMwMjgwNzldfQ==
+eyJoaXN0b3J5IjpbLTcxNjkwNjQyNiwtMjA1OTYzNjU3MiwtOT
+EzOTcxNjEsMjEzNTY3ODA1MiwyMDc5MzIxNjU3LC05NDUwMTEw
+NjksMjc1NjEzNjEsLTk3ODQyNTAzNyw1NzM2OTU0NDcsLTE2NT
+I3MjUyNjQsMjAzMDI4MDc5XX0=
 -->
