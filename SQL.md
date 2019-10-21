@@ -23,6 +23,7 @@ FROM ANIMAL_INS
 GROUP BY NAME
 HAVING COUNT(NAME) >= 2
 ```
+### datetime
 
 * 9시에서 19시 사이의 데이터 갯수를 출력
 ```sql
@@ -43,7 +44,13 @@ select
 from animal_outs 
 where @hour < 23
 ```
-
+```sql
+SELECT ANIMAL_ID, NAME, date_format(DATETIME,'%Y-%m-%d') AS 날짜
+FROM ANIMAL_INS
+```
+```
+날짜 출력 -> 
+```
 
 * 입양되지 않은 동물중 가장 보호소에 오래 있었던 동물 3마리 출력
 ```sql
@@ -87,8 +94,8 @@ FROM ANIMAL_INS
 ORDER BY ANIMAL_ID;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjkwNjQyNiwtMjA1OTYzNjU3MiwtOT
-EzOTcxNjEsMjEzNTY3ODA1MiwyMDc5MzIxNjU3LC05NDUwMTEw
-NjksMjc1NjEzNjEsLTk3ODQyNTAzNyw1NzM2OTU0NDcsLTE2NT
-I3MjUyNjQsMjAzMDI4MDc5XX0=
+eyJoaXN0b3J5IjpbODgxMTU5NjYzLC03MTY5MDY0MjYsLTIwNT
+k2MzY1NzIsLTkxMzk3MTYxLDIxMzU2NzgwNTIsMjA3OTMyMTY1
+NywtOTQ1MDExMDY5LDI3NTYxMzYxLC05Nzg0MjUwMzcsNTczNj
+k1NDQ3LC0xNjUyNzI1MjY0LDIwMzAyODA3OV19
 -->
