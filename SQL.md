@@ -44,13 +44,35 @@ select
 from animal_outs 
 where @hour < 23
 ```
+
+* date_format(DATETIME,'%Y-%m-%d')
+
 ```sql
 SELECT ANIMAL_ID, NAME, date_format(DATETIME,'%Y-%m-%d') AS 날짜
 FROM ANIMAL_INS
 ```
 ```
-날짜 출력 -> 
+날짜 출력 -> 2015-01-29
 ```
+* date_format(DATETIME,'%YY-%mm-%dd')
+
+```sql
+SELECT ANIMAL_ID, NAME, date_format(DATETIME,'%YY-%mm-%dd') AS 날짜
+FROM ANIMAL_INS
+```
+```
+날짜 출력 -> 2015Y-01m-29d //텍스트가 덧붙여져서 나온다
+```
+* date_format(DATETIME,'%Y-%M-%D')
+
+```sql
+SELECT ANIMAL_ID, NAME, date_format(DATETIME,'%YY-%mm-%dd') AS 날짜
+FROM ANIMAL_INS
+```
+```
+날짜 출력 -> 2015Y-01m-29d //텍스트가 덧붙여져서 나온다
+```
+
 
 * 입양되지 않은 동물중 가장 보호소에 오래 있었던 동물 3마리 출력
 ```sql
@@ -94,8 +116,8 @@ FROM ANIMAL_INS
 ORDER BY ANIMAL_ID;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMTU5NjYzLC03MTY5MDY0MjYsLTIwNT
-k2MzY1NzIsLTkxMzk3MTYxLDIxMzU2NzgwNTIsMjA3OTMyMTY1
-NywtOTQ1MDExMDY5LDI3NTYxMzYxLC05Nzg0MjUwMzcsNTczNj
-k1NDQ3LC0xNjUyNzI1MjY0LDIwMzAyODA3OV19
+eyJoaXN0b3J5IjpbLTEwNDc5NDEyODAsLTcxNjkwNjQyNiwtMj
+A1OTYzNjU3MiwtOTEzOTcxNjEsMjEzNTY3ODA1MiwyMDc5MzIx
+NjU3LC05NDUwMTEwNjksMjc1NjEzNjEsLTk3ODQyNTAzNyw1Nz
+M2OTU0NDcsLTE2NTI3MjUyNjQsMjAzMDI4MDc5XX0=
 -->
