@@ -29,7 +29,6 @@
 - 하이재커 : 의도치 않은 사이트로 이동을 시키고 팝업창을 띄우는 악성 소프트웨어
 	- 스파이웨어와 애드웨어와 비슷한 맥락
 - 랜섬웨어 : 특정 파일을 암호화하여 파일을 사용 불가능 상태로 만들어서 복구를 위해 돈을 요구하는 악성 소프트웨어
-	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY5MzczNjRdfQ==
+eyJoaXN0b3J5IjpbOTE5OTQwNTUzXX0=
 -->
