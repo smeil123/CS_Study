@@ -42,7 +42,19 @@
 - one-day attack : 취약점이 발견되고 패치가 나왔으나 아직 적용되기 전에 발생하는 공격
 
 
-## OWASP(가장 빈도 높은
+## OWASP(가장 빈도 높은 공격방식) Top10
+1. 인젝션
+2. 취약점 인증
+3. 민감한 데이터 노출
+4. XML 외부 개체(XXE)
+5. 취약한 접근 통제
+6. 잘못된 보안 구상
+7. 크로스사이트 스크립팅(XSS)
+8. 안전하지 않은 역직렬화
+9. 알려진 취약점이 있는 구성요소 사용
+10.불충분한 로깅 및 모니터링
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODc1MjMyNV19
+eyJoaXN0b3J5IjpbLTgzMzg0MTk0M119
 -->
