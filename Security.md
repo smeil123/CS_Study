@@ -54,7 +54,17 @@
 9. 알려진 취약점이 있는 구성요소 사용
 10.불충분한 로깅 및 모니터링
 
- 
+## OSI7layer 정리
+
+## Session 맺는 과정 - 3handshaking
+
+### fin, reset 패킷의 사용 이유
+
+## Well-known 포트 정리
+
+## 통신 패킷 구조 정리
+
+## DPI(Deep Packet Inspection) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzg0MTk0M119
+eyJoaXN0b3J5IjpbMTY5MzM2NzM3NV19
 -->
