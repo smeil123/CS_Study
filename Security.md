@@ -29,6 +29,20 @@
 - 하이재커 : 의도치 않은 사이트로 이동을 시키고 팝업창을 띄우는 악성 소프트웨어
 	- 스파이웨어와 애드웨어와 비슷한 맥락
 - 랜섬웨어 : 특정 파일을 암호화하여 파일을 사용 불가능 상태로 만들어서 복구를 위해 돈을 요구하는 악성 소프트웨어
+
+
+## 보안장비에 대한 정리
+1. Firewall
+2. IPS
+3. WAF
+
+
+## Zero-day attack, One-day attack
+- zero-day attack : 취약점이 발견되기 전, 혹은 당일에 발생하는 공격
+- one-day attack : 취약점이 발견되고 패치가 나왔으나 아직 적용되기 전에 발생하는 공격
+
+
+## OWASP(가장 빈도 높은
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5OTQwNTUzXX0=
+eyJoaXN0b3J5IjpbMTIxODc1MjMyNV19
 -->
