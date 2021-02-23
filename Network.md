@@ -138,11 +138,16 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 
 #### 원리
 OSI 7계층에서는 패킷을 캡슐화한다(4->3계층, 3->2계층으로 통과하기위해)
-그리고 라우터나 스위치 같은 네트워크 장비를 지나갈때 디캡슐화하는데, 터널링장비를 통하면 디캡슐화하지 않아도 된다.
+그리고 라우터나 스위치 같은 네트워크 장비를 지나갈때 디캡슐화하는데, 
+터널링장비를 통하면 캡슐화 단위가 다르다.
+[데이터]-4계층-3계층-2계층
+터널
+
+* 터널링 장비를 통할때 디캡슐화하지 않고, 캡슐화 수행
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDI5NTQ2LC0xODQzMzc4ODM5LDk0Mz
-MwOTM1OCw5NDMzMDkzNTgsLTQ1MTI2NDMxOSwtMTEzNTI4Mjkx
-MCwtMTE4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX
-0=
+eyJoaXN0b3J5IjpbLTY2ODQ3MDcwNSwtMTg0MzM3ODgzOSw5ND
+MzMDkzNTgsOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMzUyODI5
+MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF
+19
 -->
