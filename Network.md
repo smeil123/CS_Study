@@ -138,10 +138,10 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 
 #### 원리
 OSI 7계층에서는 패킷을 캡슐화한다(4->3계층, 3->2계층으로 통과하기위해)
-그리고 라우터나 스위치 
+그리고 라우터나 스위치 같은 네트워크 장비를 지나갈때 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA5MjUxNTksLTE4NDMzNzg4MzksOT
-QzMzA5MzU4LDk0MzMwOTM1OCwtNDUxMjY0MzE5LC0xMTM1Mjgy
-OTEwLC0xMTg0Mjg3MjM2LC0zOTA2NTYyMDUsLTIwMDkwODI2NT
-BdfQ==
+eyJoaXN0b3J5IjpbMjkxMDM0NzAxLC0xODQzMzc4ODM5LDk0Mz
+MwOTM1OCw5NDMzMDkzNTgsLTQ1MTI2NDMxOSwtMTEzNTI4Mjkx
+MCwtMTE4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX
+0=
 -->
