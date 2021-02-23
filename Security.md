@@ -72,7 +72,7 @@
 - Windows : [제어판]-[네트워크 및 공유센터]-[어댑터 설정 변경] -> 인터넷 프로토콜(TCP/IP) 속성
 	-	현재 이용중인 DNZ서버 확인 : ipconfig /all
 	-	캐시된 DNS 정보 : ipconfig /displaydns
-	-	캐시된 DNS 정보 삭제 
+	-	캐시된 DNS 정보 삭제 : ipconfig /flushdns
 
 ### 클라이언트가 DNS 서버로부터 도메인의 IP를 얻는 순서
 로컬 DNS 질의 -> 루트 DNS 질의 -> com DNS 서버 질의 -> 최종 wishfree DNS서버 질의
@@ -88,5 +88,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTE2MzcwOSwxNjkzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbLTY5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
 -->
