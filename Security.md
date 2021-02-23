@@ -73,10 +73,16 @@
 	-	현재 이용중인 DNZ서버 확인 : ipconfig/all
 
 ### 클라이언트가 DNS 서버로부터 도메인의 IP를 얻는 순서
+로컬 DNS 질의 -> 루트 DNS 질의 -> com DNS 서버 질의 -> wishfr
+아래는 최악의 경우
 1. hosts 파일에 정보가 없으면 시스템에 설정된 DNS서버인 로컬 DNS서버에 질의
 2. 로컬 DNS 서버에도 해당 정보가 없으면 루트DNS 서버에 질의
 3. 루트 DNS 서버에 www.wishfree.com에 대한 정보가 없으면 com을 관리하는 DNS서버에 대한 정보를 보내준다
 4. 로컬 DNS 서버는 com DNS 서버에 www.wishfree.com 에 대해 다시 질의한다
+5. 해당 정보가 없을 경우, com DNS 서버는 다시 wishfree.com에 질의하도록 로컬 DNS 서버에 보낸다.
+6. 로컬 DNS서버는 마지막으로 wishfree.com의 DNS 서버에 질의
+7. wishfree.com의 DNS서버로부터 www.wishfree.com에 대한 IP주소를 얻는다
+8. 해당 IP주소를 클라이언트에 전달한다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTc5NDcwMywxNjkzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbLTg3MDU5OTYwMywxNjkzMzY3Mzc1XX0=
 -->
