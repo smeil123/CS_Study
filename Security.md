@@ -72,7 +72,9 @@
 - Windows : [제어판]-[네트워크 및 공유센터]-[어댑터 설정 변경] -> 인터넷 프로토콜(TCP/IP) 속성
 	-	현재 이용중인 DNZ서버 확인 : ipconfig/all
 
-### 클라이언트가 DNS 서버로 부터 
+### 클라이언트가 DNS 서버로부터 도메인의 IP를 얻는 순서
+* hosts 
+1. hosts 파일에 정보가 없으면 시스템에 설정된 DNS서버인 로컬 DNS서버에 질의
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NzcwNjMyLDE2OTMzNjczNzVdfQ==
+eyJoaXN0b3J5IjpbLTEyMDMyNjU2NTUsMTY5MzM2NzM3NV19
 -->
