@@ -150,16 +150,20 @@ vpn보다 훨씬 간단
 	 * 사용하는 암호화 프로토콜 : PPTP, L2TF, IPSec, SSL 등
 
 
-## 세션 하이재킹(Session Hijacking) : 세션 가로채기
+## TCP 세션 하이재킹(Session Hijacking) : 세션 가로채기
 > 세션 : 사용자와 컴퓨터, 또는 두 컴퓨터 간의 활성화 상태
 > 원리 : 서버와 클라이언트가 통신할 때 TCP의 시퀀스 넘버를 제어하는데 문제가 있는 것을 악용
 * TCP세션 하이재킹을 IP 스푸핑으로 부르기도 한다
 * TCP 세션 하이재킹의 종류
 	* Non-Blind Attack(로컬 세션 하이재킹 공격)
+		* 공격 대상을 알아내, 시퀀스 넘버를 알고 공격
 	* Blind Attack(원격 세션 하이재킹 공격)
-		* 시퀀ㅅ
+		* 시퀀스 넘버를 찍음 -> 시퀀스 넘버는 32bit로 (40억의 경우의 수..) 확률 매우 낮음
+
+* 탈취시 할 수 있는 것
+	* 클라이언트와 서버간의 토
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0MjIwMTA3LC0xODkwNzAyODEzLC0yMD
-M0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYwMzE5NzQsMTY5MzM2
-NzM3NV19
+eyJoaXN0b3J5IjpbLTEyODc5NzIwODksLTE4OTA3MDI4MTMsLT
+IwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNjkz
+MzY3Mzc1XX0=
 -->
