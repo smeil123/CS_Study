@@ -134,9 +134,13 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 
 ## 터널링(Tunneling)
 > 인터넷을 사적이고 안전한 네트워크의 일부로 사용하게 하는 기술
-> 즉ㄱ,
+> 즉, 두 네트워크를 한 네트워크처럼 안전하게 만드는 기술
+
+#### 원리
+OSI 7계층에서는 패킷을 캡슐화한다(4->3계층, 3->2계층으로 통과하기위해)
+그리고 라우터나 스위치 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjYwNTA1NjUsLTE4NDMzNzg4MzksOT
+eyJoaXN0b3J5IjpbLTE1MDA5MjUxNTksLTE4NDMzNzg4MzksOT
 QzMzA5MzU4LDk0MzMwOTM1OCwtNDUxMjY0MzE5LC0xMTM1Mjgy
 OTEwLC0xMTg0Mjg3MjM2LC0zOTA2NTYyMDUsLTIwMDkwODI2NT
 BdfQ==
