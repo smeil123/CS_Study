@@ -192,9 +192,13 @@ TCP 세션 하이재킹은 동기화 상태를 무너뜨리는 것에서 시작�
 	* Client_My_Seq < Server_Client_Seq + Data_Len
 3. 패킷 수신이 불가능한 상태, 데이터도 버려짐
 	* Server_Client_Seq + Data_Len < Client_My_Seq
-	* Client_My_Seq < Server_Client
+	* Client_My_Seq < Server_Client_Seq
+
+##### 비동기화 상태로 만드는 방법
+1. 서버에서 초기 설정 단계의 접속을 끊고 다른 시퀀스 넘버로 새로운 접속을 생성
+2. 대량의 Null 데이터를 보내는 방법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDAwMTI3MywxNzM0MjYzMjk4LC0zNT
+eyJoaXN0b3J5IjpbMTczMjUyMzc0NCwxNzM0MjYzMjk4LC0zNT
 c4NTI5NzIsMTAyNzIzMDcwMSwxNTQ2MTczMjkzLC0xODkwNzAy
 ODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYwMzE5Nz
 QsMTY5MzM2NzM3NV19
