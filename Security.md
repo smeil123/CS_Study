@@ -180,8 +180,10 @@ vpn보다 훨씬 간단
 * Client_My_Seq = Server_Client_Seq
 * Server_My_Seq = Client_Server_Seq
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Nzg1Mjk3MiwxMDI3MjMwNzAxLDE1ND
-YxNzMyOTMsLTE4OTA3MDI4MTMsLTIwMzQxNjM0MDgsLTE4MDU0
-NTkxNzIsLTY5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbMTczNDI2MzI5OCwtMzU3ODUyOTcyLDEwMj
+cyMzA3MDEsMTU0NjE3MzI5MywtMTg5MDcwMjgxMywtMjAzNDE2
+MzQwOCwtMTgwNTQ1OTE3MiwtNjk2MDMxOTc0LDE2OTMzNjczNz
+VdfQ==
 -->
