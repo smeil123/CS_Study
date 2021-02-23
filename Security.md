@@ -115,8 +115,8 @@ C:\Users\>tracert 27.115.156.183
 
 ```
 > * * * 만 표시되는 곳은 라우터에서 필터링 해주고 있거나 방화벽이 존재한다고 생각하면됨
-> 
+> 만약 바로 결과가 나온다면 구간에 방화벽이 없음을 의미
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLT
-Y5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbLTE4OTA3MDI4MTMsLTIwMzQxNjM0MDgsLT
+E4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
 -->
