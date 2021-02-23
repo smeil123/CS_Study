@@ -114,9 +114,14 @@ C:\Users\>tracert 27.115.156.183
 추적을 완료했습니다.
 
 ```
-> * * * 만 표시되는 곳은 라우터에서 필터링 해주고 있거나 방화벽이 존재한다고 생각하면됨
+> "* * *" 만 표시되는 곳은 라우터에서 필터링 해주고 있거나 방화벽이 존재한다고 생각하면됨
 > 만약 바로 결과가 나온다면 구간에 방화벽이 없음을 의미
+
+### 스니핑, 스푸핑
+> 스니핑 : 대화를 엿듣는 일, 도청! ex.TCP Dump도 스니핑의 일종
+> 스푸핑 : 정보를 얻어내기 위해 중간 단계의 기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA3MDI4MTMsLTIwMzQxNjM0MDgsLT
-E4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbLTE2NTM3NTQ1NDEsLTE4OTA3MDI4MTMsLT
+IwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNjkz
+MzY3Mzc1XX0=
 -->
