@@ -70,10 +70,12 @@
 > DNS서버를 직접 입력하거나 DHCP를 통해 자동으로 할당받아 설정 가능
 - Linux : /etc/resolv.conf 파일에 DNS 입력 가능
 - Windows : [제어판]-[네트워크 및 공유센터]-[어댑터 설정 변경] -> 인터넷 프로토콜(TCP/IP) 속성
-	-	현재 이용중인 DNZ서버 확인 : ipconfig/all
+	-	현재 이용중인 DNZ서버 확인 : ipconfig /all
+	-	캐시된 DNS 정보 : ipconfig /displaydns
+	-	캐시된 DNS 정보 삭제 
 
 ### 클라이언트가 DNS 서버로부터 도메인의 IP를 얻는 순서
-로컬 DNS 질의 -> 루트 DNS 질의 -> com DNS 서버 질의 -> wishfree DNS서버 질의
+로컬 DNS 질의 -> 루트 DNS 질의 -> com DNS 서버 질의 -> 최종 wishfree DNS서버 질의
 아래는 최악의 경우
 1. hosts 파일에 정보가 없으면 시스템에 설정된 DNS서버인 로컬 DNS서버에 질의
 2. 로컬 DNS 서버에도 해당 정보가 없으면 루트DNS 서버에 질의
@@ -83,6 +85,8 @@
 6. 로컬 DNS서버는 마지막으로 wishfree.com의 DNS 서버에 질의
 7. wishfree.com의 DNS서버로부터 www.wishfree.com에 대한 IP주소를 얻는다
 8. 해당 IP주소를 클라이언트에 전달한다
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzEwNzE5OCwxNjkzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbMTgyMTE2MzcwOSwxNjkzMzY3Mzc1XX0=
 -->
