@@ -173,8 +173,10 @@ vpn보다 훨씬 간단
 |Server_My_Seq|서버가 관리하는 자신의 시퀀스 넘버|
 |Server_Client_Seq|서버가 알고 있는 클라이언트의 시퀀스 넘버|
 |Data_Len|데이터의 길이|
+
+![image](./image/KakaoTalk_20210223_231121635.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjE3MzI5MywtMTg5MDcwMjgxMywtMj
-AzNDE2MzQwOCwtMTgwNTQ1OTE3MiwtNjk2MDMxOTc0LDE2OTMz
-NjczNzVdfQ==
+eyJoaXN0b3J5IjpbMTMwNzE3NTM4OSwxNTQ2MTczMjkzLC0xOD
+kwNzAyODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYw
+MzE5NzQsMTY5MzM2NzM3NV19
 -->
