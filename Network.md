@@ -70,6 +70,14 @@
 ## Network Coding
 
 
+## ARP, RARP
+
+#### ARP : Address Resolution Protocol
+* IP -> MAC 알아내는 프로토콜
+
+#### RARP : Re
+
+
 ## Post와 Get
 
 ## HTTP
@@ -122,7 +130,7 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE2NDU1OTAsLTE4NDMzNzg4MzksOT
+eyJoaXN0b3J5IjpbLTExMzA5ODAxOTQsLTE4NDMzNzg4MzksOT
 QzMzA5MzU4LDk0MzMwOTM1OCwtNDUxMjY0MzE5LC0xMTM1Mjgy
 OTEwLC0xMTg0Mjg3MjM2LC0zOTA2NTYyMDUsLTIwMDkwODI2NT
 BdfQ==
