@@ -174,9 +174,9 @@ vpn보다 훨씬 간단
 |Server_Client_Seq|서버가 알고 있는 클라이언트의 시퀀스 넘버|
 |Data_Len|데이터의 길이|
 
-![image](./image/KakaoTalk_20210223_231121635.jpg)
+![TCP 세션 성립과정](./image/KakaoTalk_20210223_231121635.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzE3NTM4OSwxNTQ2MTczMjkzLC0xOD
+eyJoaXN0b3J5IjpbMTg3Nzg0NDY0OCwxNTQ2MTczMjkzLC0xOD
 kwNzAyODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYw
 MzE5NzQsMTY5MzM2NzM3NV19
 -->
