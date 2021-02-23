@@ -188,9 +188,13 @@ TCP 세션 하이재킹은 동기화 상태를 무너뜨리는 것에서 시작�
 	 * Client_My_Seq != Server_Client_Seq
 	 * Sever_My_Seq != Client_Server_Seq
 2. 데이터가 전송될 때는 다음과 같은 상태의 데이터가 차후 사용을 위해 저장되지만 클라이언트에 서버의 승인 번호는 전달되지 않음
-	* 
+	* Server_Client_Seq  < Client_My_Seq
+	* Client_My_Seq < Server_Client_Seq + Data_Len
+3. 패킷 수신이 불가능한 상태, 데이터도 버려짐
+	* Server_Client_Seq + Data_Len < Client_My_Seq
+	* Client_My_Seq < Server_Client
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzMyNTc2MywxNzM0MjYzMjk4LC0zNT
+eyJoaXN0b3J5IjpbMTk3MDAwMTI3MywxNzM0MjYzMjk4LC0zNT
 c4NTI5NzIsMTAyNzIzMDcwMSwxNTQ2MTczMjkzLC0xODkwNzAy
 ODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYwMzE5Nz
 QsMTY5MzM2NzM3NV19
