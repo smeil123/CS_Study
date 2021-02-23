@@ -183,9 +183,14 @@ vpn보다 훨씬 간단
 #### 비동기화 상태
 TCP 세션 하이재킹은 동기화 상태를 무너뜨리는 것에서 시작한다.
 즉, 서버와 클라이언트를 비동기화 상태로 만들어야 한다.
- 
+ ##### 비동기화 상태는 아래 3가지
+ 1. 데이터가 전송되기 전까지는 안정적인(stable)상태
+	 * Client_My_Seq != Server_Client_Seq
+	 * Sever_My_Seq != Client_Server_Seq
+2. 데이터가 전송될 때는 다음과 같은 상태의 데이터가 차후 사용을 위해 저장되지만 클라이언트에 서버의 승인 번호는 전달되지 않음
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDkzNDg3OCwxNzM0MjYzMjk4LC0zNT
+eyJoaXN0b3J5IjpbMTg1MzMyNTc2MywxNzM0MjYzMjk4LC0zNT
 c4NTI5NzIsMTAyNzIzMDcwMSwxNTQ2MTczMjkzLC0xODkwNzAy
 ODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYwMzE5Nz
 QsMTY5MzM2NzM3NV19
