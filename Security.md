@@ -86,7 +86,12 @@
 7. wishfree.com의 DNS서버로부터 www.wishfree.com에 대한 IP주소를 얻는다
 8. 해당 IP주소를 클라이언트에 전달한다
 
+## 방화벽 탐지
+> 서버에 방화벽이 있는지 확인하는 방법
+>  리눅스 : traceroute, 윈도우 : tracert
 
+treaceroute www.google.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbMTI3NTIxMjg5MywtNjk2MDMxOTc0LDE2OT
+MzNjczNzVdfQ==
 -->
