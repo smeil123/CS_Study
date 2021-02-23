@@ -65,6 +65,9 @@
 ## 통신 패킷 구조 정리
 
 ## DPI(Deep Packet Inspection) 
+
+## DNS
+> DNS서버를 직접 입ㄹ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzM2NzM3NV19
+eyJoaXN0b3J5IjpbNzUwOTEyMjIzLDE2OTMzNjczNzVdfQ==
 -->
