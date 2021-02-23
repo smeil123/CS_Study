@@ -176,11 +176,10 @@ vpn보다 훨씬 간단
 
 ![정상적인 TCP 세션 성립과정](./image/KakaoTalk_20210223_231121635.jpg)
 
-1. 연결이 되기 전 클라이언트의 포트는 Closed 상태, 서버는 서비스를 제공하기 위해 기다리는 Listen 상태
-2. 클라이언트는 32비트 숫자 중 임의의 숫자(Client_My_Seq)를 생성하여 
+동기화 되면 드
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzIzMDcwMSwxNTQ2MTczMjkzLC0xOD
-kwNzAyODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYw
-MzE5NzQsMTY5MzM2NzM3NV19
+eyJoaXN0b3J5IjpbOTQ5NDUyOTQ0LDEwMjcyMzA3MDEsMTU0Nj
+E3MzI5MywtMTg5MDcwMjgxMywtMjAzNDE2MzQwOCwtMTgwNTQ1
+OTE3MiwtNjk2MDMxOTc0LDE2OTMzNjczNzVdfQ==
 -->
