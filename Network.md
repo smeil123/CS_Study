@@ -132,7 +132,7 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 
 
 
-## 터널링(Tunneling)
+## 터널링(Tunneling) / VPN
 > 인터넷을 사적이고 안전한 네트워크의 일부로 사용하게 하는 기술
 > 즉, 두 네트워크를 한 네트워크처럼 안전하게 만드는 기술
 
@@ -146,9 +146,9 @@ OSI 7계층에서는 패킷을 캡슐화한다(4->3계층, 3->2계층으로 통�
 // 네트워크 해킹과 보안 p285 참고
 
 * 터널링 장비를 통할때 디캡슐화하지 않고, 캡슐화 수행
-
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDU2OTYzOSwtMTg0MzM3ODgzOSw5ND
+eyJoaXN0b3J5IjpbLTE1OTY0MzcwMiwtMTg0MzM3ODgzOSw5ND
 MzMDkzNTgsOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMzUyODI5
 MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF
 19
