@@ -131,35 +131,9 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
 
-
-## 터널링(Tunneling) / VPN
-> 인터넷을 사적이고 안전한 네트워크의 일부로 사용하게 하는 기술
-> 즉, 두 네트워크를 한 네트워크처럼 안전하게 만드는 기술
-
-#### 원리
-OSI 7계층에서는 패킷을 캡슐화한다(4->3계층, 3->2계층으로 통과하기위해)
-그리고 라우터나 스위치 같은 네트워크 장비를 지나갈때 디캡슐화하는데, 
-터널링장비를 통하면 캡슐화 단위가 다르다.
-1. [[데이터]-4계층-3계층-2계층] 데이터 전송
-2. [터널링장비 A] (네트워크 장비 대신) 캡슐화
-3. [터널링장비 B] 디캡슐화하여 다음 네트우커르 전달
-// 네트워크 해킹과 보안 p285 참고
-
-* 터널링 장비를 통할때 디캡슐화하지 않고, 캡슐화 수행
- 
-#### SSH 터널링
-vpn보다 훨씬 간단
-> 내부 관리자가 외부 서비스를 안전하게 이용하기 위해, 혹은 내부인이 방화벽을 우회하
-
- ### 터널링의 대표적인 장비 : VPN(virtual Private Network)
- > 외부 인터넷 회선을 회사 내부 임대 회선처럼 사용할 수 있게 해주는 솔루션
- > (임대회선은 매우 비쌈, 재택근무때문에 지역마다 임대회선을 설치해줄 수 없으나, VPN솔루션은 비교적 매우 저렴함)
- * VPN이 임대회선과 비슷한 수준의 기밀성 제공을 위해선 암호화 필요
-	 * 사용하는 암호화 프로토콜 : PPTP, L2TF, IPSec, SSL 등
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTY4NjU5OSwtMTg0MzM3ODgzOSw5ND
-MzMDkzNTgsOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMzUyODI5
-MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF
-19
+eyJoaXN0b3J5IjpbMTAxMDA4MjQ4LC0xODQzMzc4ODM5LDk0Mz
+MwOTM1OCw5NDMzMDkzNTgsLTQ1MTI2NDMxOSwtMTEzNTI4Mjkx
+MCwtMTE4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX
+0=
 -->
