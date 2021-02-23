@@ -161,9 +161,12 @@ vpn보다 훨씬 간단
 		* 시퀀스 넘버를 찍음 -> 시퀀스 넘버는 32bit로 (40억의 경우의 수..) 확률 매우 낮음
 
 * 탈취시 할 수 있는 것
-	* 클라이언트와 서버간의 토
+	* 클라이언트와 서버간의 통신 염탐
+	* 트러스트를 이용한 텔넷, FTP 등 TCP를 이용한 거의 모든 세션 갈취
+	* OTP, 토큰 기반 인증을 이용한 세션 갈취도 가능
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODc5NzIwODksLTE4OTA3MDI4MTMsLT
+eyJoaXN0b3J5IjpbLTE4NzM2NDQ1NzMsLTE4OTA3MDI4MTMsLT
 IwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNjkz
 MzY3Mzc1XX0=
 -->
