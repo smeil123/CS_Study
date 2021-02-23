@@ -66,8 +66,10 @@
 
 ## DPI(Deep Packet Inspection) 
 
-## DNS
-> DNS서버를 직접 입ㄹ
+## DNS 동작원리
+> DNS서버를 직접 입력하거나 DHCP를 통해 자동으로 할당받아 설정 가능
+- Linux : /etc/resolv.conf 파일에 DNS 입력 가능
+- Windows : [제어판]-[네트워크 및 공유센터]-[어댑터 설정 변경] -> 인터넷 프로토콜(TCP.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwOTEyMjIzLDE2OTMzNjczNzVdfQ==
+eyJoaXN0b3J5IjpbMTA0OTAyNzk5NiwxNjkzMzY3Mzc1XX0=
 -->
