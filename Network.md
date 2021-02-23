@@ -75,7 +75,8 @@
 #### ARP : Address Resolution Protocol
 * IP -> MAC 알아내는 프로토콜
 
-#### RARP : Re
+#### RARP : Revers ARP
+* MAC -> IP 알아내는 프로토콜
 
 
 ## Post와 Get
@@ -129,8 +130,13 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 3. 응답을 받으면 이벤트 발생, 이벤트의 콜백함수 호출
 	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
 
+
+
+## 터널링(Tunneling)
+> 인터넷을 사적이고 안전한 네트워크의 일부로 사용하게 하는 기술
+> 즉ㄱ,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA5ODAxOTQsLTE4NDMzNzg4MzksOT
+eyJoaXN0b3J5IjpbLTIwNjYwNTA1NjUsLTE4NDMzNzg4MzksOT
 QzMzA5MzU4LDk0MzMwOTM1OCwtNDUxMjY0MzE5LC0xMTM1Mjgy
 OTEwLC0xMTg0Mjg3MjM2LC0zOTA2NTYyMDUsLTIwMDkwODI2NT
 BdfQ==
