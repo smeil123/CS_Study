@@ -152,12 +152,14 @@ vpn보다 훨씬 간단
 
 ## 세션 하이재킹(Session Hijacking) : 세션 가로채기
 > 세션 : 사용자와 컴퓨터, 또는 두 컴퓨터 간의 활성화 상태
+> 원리 : 서버와 클라이언트가 통신할 때 TCP의 시퀀스 넘버를 제어하는데 문제가 있는 것을 악용
 * TCP세션 하이재킹을 IP 스푸핑으로 부르기도 한다
 * TCP 세션 하이재킹의 종류
 	* Non-Blind Attack(로컬 세션 하이재킹 공격)
 	* Blind Attack(원격 세션 하이재킹 공격)
+		* 시퀀ㅅ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODgwODY5MywtMTg5MDcwMjgxMywtMj
-AzNDE2MzQwOCwtMTgwNTQ1OTE3MiwtNjk2MDMxOTc0LDE2OTMz
-NjczNzVdfQ==
+eyJoaXN0b3J5IjpbODI0MjIwMTA3LC0xODkwNzAyODEzLC0yMD
+M0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYwMzE5NzQsMTY5MzM2
+NzM3NV19
 -->
