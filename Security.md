@@ -119,9 +119,9 @@ C:\Users\>tracert 27.115.156.183
 
 ### 스니핑, 스푸핑
 > 스니핑 : 대화를 엿듣는 일, 도청! ex.TCP Dump도 스니핑의 일종
-> 스푸핑 : 정보를 얻어내기 위해 중간 단계의 기
+> 스푸핑 : 정보를 얻어내기 위해 중간 단계를 변조? 속이는 것
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTM3NTQ1NDEsLTE4OTA3MDI4MTMsLT
-IwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNjkz
-MzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbNzQ1NTIwODk2LC0xODkwNzAyODEzLC0yMD
+M0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYwMzE5NzQsMTY5MzM2
+NzM3NV19
 -->
