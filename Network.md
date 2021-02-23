@@ -148,9 +148,13 @@ OSI 7계층에서는 패킷을 캡슐화한다(4->3계층, 3->2계층으로 통�
 * 터널링 장비를 통할때 디캡슐화하지 않고, 캡슐화 수행
  
  ### 터널링의 대표적인 장비 : VPN(virtual Private Network)
- > 외부 인터넷 회선을 회사 내부 이
+ > 외부 인터넷 회선을 회사 내부 임대 회선처럼 사용할 수 있게 해주는 솔루션
+ > (임대회선은 매우 비쌈, 재택근무때문에 지역마다 임대회선을 설치해줄 수 없으나, VPN솔루션은 비교적 매우 저렴함)
+ * VPN이 임대회선과 비슷한 수준의 기밀성 제공을 위해선 암호화 필요
+	 * 사용하는 암호화 프로토콜 : PPTP, L2TF, IPSec, SSL 등
+	 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDgwNzgwNCwtMTg0MzM3ODgzOSw5ND
+eyJoaXN0b3J5IjpbLTkwNDQ3NzQwMiwtMTg0MzM3ODgzOSw5ND
 MzMDkzNTgsOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMzUyODI5
 MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF
 19
