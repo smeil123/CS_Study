@@ -55,7 +55,7 @@
 10.불충분한 로깅 및 모니터링
 
 ## OSI7layer 정리
-
+![정상적인 TCP 세션 성립과정](./image/OSI7.png)
 ## Session 맺는 과정 - 3handshaking
 
 ### fin, reset 패킷의 사용 이유
@@ -180,10 +180,13 @@ vpn보다 훨씬 간단
 * Client_My_Seq = Server_Client_Seq
 * Server_My_Seq = Client_Server_Seq
 
-
+#### 비동기화 상태
+TCP 세션 하이재킹은 동기화 상태를 무너뜨리는 것에서 시작한다.
+즉, 서버와 클라이언트를 비동기화 상태로 만들어야 한다.
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDI2MzI5OCwtMzU3ODUyOTcyLDEwMj
-cyMzA3MDEsMTU0NjE3MzI5MywtMTg5MDcwMjgxMywtMjAzNDE2
-MzQwOCwtMTgwNTQ1OTE3MiwtNjk2MDMxOTc0LDE2OTMzNjczNz
-VdfQ==
+eyJoaXN0b3J5IjpbLTM1NDkzNDg3OCwxNzM0MjYzMjk4LC0zNT
+c4NTI5NzIsMTAyNzIzMDcwMSwxNTQ2MTczMjkzLC0xODkwNzAy
+ODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYwMzE5Nz
+QsMTY5MzM2NzM3NV19
 -->
