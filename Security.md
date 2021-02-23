@@ -90,8 +90,33 @@
 > 서버에 방화벽이 있는지 확인하는 방법
 >  리눅스 : traceroute, 윈도우 : tracert
 
-treaceroute www.google.com
+```
+C:\Users\>tracert 27.115.156.183
+
+최대 30홉 이상의 27.115.156.183(으)로 가는 경로 추적
+
+  1    <1 ms    <1 ms    <1 ms  192.168.219.1
+  2     3 ms     3 ms     3 ms  106.241.186.129
+  3     3 ms     2 ms     2 ms  10.18.162.121
+  4     3 ms     3 ms     3 ms  10.18.162.113
+  5     2 ms     1 ms     2 ms  1.208.100.73
+  6     2 ms     2 ms     2 ms  1.213.141.9
+  7     2 ms     2 ms     3 ms  1.213.107.85
+  8     3 ms     2 ms     2 ms  1.213.152.30
+  9    23 ms    21 ms    25 ms  211.44.125.169
+ 10    10 ms    11 ms     4 ms  175.126.127.73
+ 11     4 ms     4 ms     4 ms  10.222.19.132
+ 12     4 ms     4 ms     4 ms  100.127.35.3
+ 13     4 ms     3 ms     4 ms  100.127.35.133
+ 14     *        *        *     요청 시간이 만료되었습니다.
+ 15     5 ms     6 ms     5 ms  27.115.156.183
+
+추적을 완료했습니다.
+
+```
+
+> * * * 만 표시되는 곳은 라우터에서 필터링 해주고 있거나 방화벽이 존재
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTIxMjg5MywtNjk2MDMxOTc0LDE2OT
-MzNjczNzVdfQ==
+eyJoaXN0b3J5IjpbLTE4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNj
+kzMzY3Mzc1XX0=
 -->
