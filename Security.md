@@ -174,9 +174,13 @@ vpn보다 훨씬 간단
 |Server_Client_Seq|서버가 알고 있는 클라이언트의 시퀀스 넘버|
 |Data_Len|데이터의 길이|
 
-![TCP 세션 성립과정](./image/KakaoTalk_20210223_231121635.jpg)
+![정상적인 TCP 세션 성립과정](./image/KakaoTalk_20210223_231121635.jpg)
+
+1. 연결이 되기 전 클라이언트의 포트는 Closed 상태, 서버는 서비스를 제공하기 위해 기다리는 Listen 상태
+2. 클라이언트는 32비트 숫자 중 임의의 숫자를 생성하여 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Nzg0NDY0OCwxNTQ2MTczMjkzLC0xOD
-kwNzAyODEzLC0yMDM0MTYzNDA4LC0xODA1NDU5MTcyLC02OTYw
-MzE5NzQsMTY5MzM2NzM3NV19
+eyJoaXN0b3J5IjpbLTgwMzY2NzA4LDE1NDYxNzMyOTMsLTE4OT
+A3MDI4MTMsLTIwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLTY5NjAz
+MTk3NCwxNjkzMzY3Mzc1XX0=
 -->
