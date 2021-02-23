@@ -113,26 +113,8 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 ### RESTful
 이러한 REST API의 설계 의도를 정확하게 지켜주는 API를 'RESTful하다'라고 부른다. URI는 자원을 정확하고 인식하기 편하게 표현하는데에 집중하고, 자원에 대한 행위는 Uniform하게 HTTP메소드를 통해 정의한다. 
 
-## Ajax란?
-* 자바스크립트를 이용해서 비동기적으로 브라우저와 서버가 데이터를 주고 받는 형식 (네워크 통신 방식)
-* Asynchronous Javascript and XML : 자바스크립트로 비동기 통신을 하고, XML 형식으로 데이터 리턴을 받는다는 뜻
-* XML, JSON 형식 사용 가능
-* DOM을 제어해서 서버로부터 리턴받은 데이터를 가지고 렌더링함
-
-#### AJAX사용하면 좋은 점
-* 비동기 통신의 이점 : 통신 후 데이터 바인딩하는 동안 사용자가 어플리케이션을 사용할 수 있음
-* 전체 페이지 로딩시 모든 데이터를 서버로부터 받는 것이 아니라 필요한 부분을 그때마다 일부분 렌더링 시키는 것이 가능
-* 일부 데이터를 위해 클라이언트가 전체 페이지를 요청하지 않아도 됨
-
-#### 동작방식
-1. 서버로 정보 요청 : 이벤트 발생 -> 핸들러 함수 호출 -> 서버 요청 객체 생성 및 메서드 호출
-2. 서버 내부 처리 후 응답 : json 또는 xml 형태로 데이터 전달
-3. 응답을 받으면 이벤트 발생, 이벤트의 콜백함수 호출
-	* 응답 데이터 파싱 후DOM를 제어하여 렌더링 -> 전체 페이지 로드 방식이 아니다
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDA4MjQ4LC0xODQzMzc4ODM5LDk0Mz
+eyJoaXN0b3J5IjpbMzk1MDE2NDM4LC0xODQzMzc4ODM5LDk0Mz
 MwOTM1OCw5NDMzMDkzNTgsLTQ1MTI2NDMxOSwtMTEzNTI4Mjkx
 MCwtMTE4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX
 0=
