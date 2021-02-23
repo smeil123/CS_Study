@@ -164,9 +164,20 @@ vpn보다 훨씬 간단
 	* 클라이언트와 서버간의 통신 염탐
 	* 트러스트를 이용한 텔넷, FTP 등 TCP를 이용한 거의 모든 세션 갈취
 	* OTP, 토큰 기반 인증을 이용한 세션 갈취도 가능
-	* 
+
+#### TCP 시퀀스 넘버 교환
+| 명칭| 설명 |
+|--|--|
+|Client_My_Seq| 클라이언트가 관리하고 있는 자신의 시퀀스 넘버|
+|Client_Server_Seq|클라이언트가 관리하고 있는 서버의 시퀀스 넘버|
+|Server_My_Seq|서버가 관리하는 자신의 시퀀스 넘버|
+|Server_Client_Seq|.5|n^2|
+|퀵정렬|nlogn|nlogn|n^2|
+|힙정렬|nlogn|nlogn|nlogn|
+|병합정렬|nlogn|nlogn|nlogn|
+|기수정렬|kn|kn|kn|kn|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM2NDQ1NzMsLTE4OTA3MDI4MTMsLT
+eyJoaXN0b3J5IjpbLTEwOTA1MTU5OTQsLTE4OTA3MDI4MTMsLT
 IwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNjkz
 MzY3Mzc1XX0=
 -->
