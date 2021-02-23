@@ -95,7 +95,7 @@ C:\Users\>tracert 27.115.156.183
 
 최대 30홉 이상의 27.115.156.183(으)로 가는 경로 추적
 
-  1    <1 ms    <1 ms    <1 ms  192.168.219.1
+  1    <1 ms    <1 ms    <1 ms  192.168.219.1  -> 게이트웨이
   2     3 ms     3 ms     3 ms  106.241.186.129
   3     3 ms     2 ms     2 ms  10.18.162.121
   4     3 ms     3 ms     3 ms  10.18.162.113
@@ -108,15 +108,15 @@ C:\Users\>tracert 27.115.156.183
  11     4 ms     4 ms     4 ms  10.222.19.132
  12     4 ms     4 ms     4 ms  100.127.35.3
  13     4 ms     3 ms     4 ms  100.127.35.133
- 14     *        *        *     요청 시간이 만료되었습니다.
+ 14     *        *        *     요청 시간이 만료되었습니다. -> 방화벽
  15     5 ms     6 ms     5 ms  27.115.156.183
 
 추적을 완료했습니다.
 
 ```
-
-> * * * 만 표시되는 곳은 라우터에서 필터링 해주고 있거나 방화벽이 존재
+> * * * 만 표시되는 곳은 라우터에서 필터링 해주고 있거나 방화벽이 존재한다고 생각하면됨
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU0NTkxNzIsLTY5NjAzMTk3NCwxNj
-kzMzY3Mzc1XX0=
+eyJoaXN0b3J5IjpbLTIwMzQxNjM0MDgsLTE4MDU0NTkxNzIsLT
+Y5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
 -->
