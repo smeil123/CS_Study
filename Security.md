@@ -176,10 +176,12 @@ vpn보다 훨씬 간단
 
 ![정상적인 TCP 세션 성립과정](./image/KakaoTalk_20210223_231121635.jpg)
 
-동기화 되면 드
+동기화 되면
+* Client_My_Seq = Server_Client_Seq
+* Server_My_Seq = Client_Server_Seq
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NDUyOTQ0LDEwMjcyMzA3MDEsMTU0Nj
-E3MzI5MywtMTg5MDcwMjgxMywtMjAzNDE2MzQwOCwtMTgwNTQ1
-OTE3MiwtNjk2MDMxOTc0LDE2OTMzNjczNzVdfQ==
+eyJoaXN0b3J5IjpbLTM1Nzg1Mjk3MiwxMDI3MjMwNzAxLDE1ND
+YxNzMyOTMsLTE4OTA3MDI4MTMsLTIwMzQxNjM0MDgsLTE4MDU0
+NTkxNzIsLTY5NjAzMTk3NCwxNjkzMzY3Mzc1XX0=
 -->
