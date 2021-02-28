@@ -115,10 +115,16 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 
 
 ### 로드밸런싱
-> 컴퓨터 네트워크 기술의 일종으로 중앙처리장치 혹은 저장장치와 같은 컴퓨터 자원들에게 작업ㅇ
+> 컴퓨터 네트워크 기술의 일종으로 중앙처리장치 혹은 저장장치와 같은 컴퓨터 자원들에게 작업을 나누는 것을 의미한다
+
+네트워크 로드밸런서
+	* L2 : MAC Address를 참조하여 스위칭 (브릿지, 허브)
+	* L3 : IP주소를 확인하여 스위칭 (Router, ICMP, IP)
+	* L4 : IP주소 및 TCP/UDP 포트 정보를 참조하여 스위칭
+	* L7 : IP주소 및 TCP/UDP 포트 정보와 패킷 내용을 참조하여 스위칭
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzk3NTQ2MSwtMTg0MzM3ODgzOSw5ND
-MzMDkzNTgsOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMzUyODI5
-MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF
-19
+eyJoaXN0b3J5IjpbNzYzMDIyMDA2LC0xODQzMzc4ODM5LDk0Mz
+MwOTM1OCw5NDMzMDkzNTgsLTQ1MTI2NDMxOSwtMTEzNTI4Mjkx
+MCwtMTE4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX
+0=
 -->
