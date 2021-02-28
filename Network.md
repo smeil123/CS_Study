@@ -113,9 +113,12 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 ### RESTful
 이러한 REST API의 설계 의도를 정확하게 지켜주는 API를 'RESTful하다'라고 부른다. URI는 자원을 정확하고 인식하기 편하게 표현하는데에 집중하고, 자원에 대한 행위는 Uniform하게 HTTP메소드를 통해 정의한다. 
 
+
+### 로드밸런싱
+> 컴퓨터 네트워크 기술의 일종으로 중앙처리장치 혹은 저장장치와 같은 컴퓨터 자원들에게 작업ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1MDE2NDM4LC0xODQzMzc4ODM5LDk0Mz
-MwOTM1OCw5NDMzMDkzNTgsLTQ1MTI2NDMxOSwtMTEzNTI4Mjkx
-MCwtMTE4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX
-0=
+eyJoaXN0b3J5IjpbMTMyNzk3NTQ2MSwtMTg0MzM3ODgzOSw5ND
+MzMDkzNTgsOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMzUyODI5
+MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF
+19
 -->
