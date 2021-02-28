@@ -1,7 +1,7 @@
 
 
 # 네트워크
-## OSI 7 계층
+## OSI 7 계층(물대네/전세표응)
 * 통신 접속에서 완료까지의 과정을 7단계로 정의한 국제 통신 표준 규약이다
 * 물리계층 : 전송하는데 필요한 기능을 제공. 장비로는 통신 케이블, 허브가 존재한다.
 * 데이터링크계층 : 송/수신을 확인, MAC Adress를 가지고 통신. 장비로는 브릿지와 스위치가 존재한다.
@@ -123,8 +123,8 @@ REST 서버는 API제공, 클라이언트는 사용자 인증이나 세션,로�
 	* L4 : IP주소 및 TCP/UDP 포트 정보를 참조하여 스위칭
 	* L7 : IP주소 및 TCP/UDP 포트 정보와 패킷 내용을 참조하여 스위칭
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMDIyMDA2LC0xODQzMzc4ODM5LDk0Mz
-MwOTM1OCw5NDMzMDkzNTgsLTQ1MTI2NDMxOSwtMTEzNTI4Mjkx
-MCwtMTE4NDI4NzIzNiwtMzkwNjU2MjA1LC0yMDA5MDgyNjUwXX
-0=
+eyJoaXN0b3J5IjpbMTYzNDc5NDA2MSwtMTg0MzM3ODgzOSw5ND
+MzMDkzNTgsOTQzMzA5MzU4LC00NTEyNjQzMTksLTExMzUyODI5
+MTAsLTExODQyODcyMzYsLTM5MDY1NjIwNSwtMjAwOTA4MjY1MF
+19
 -->
