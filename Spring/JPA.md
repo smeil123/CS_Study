@@ -157,8 +157,13 @@ public class PostsRepositoryTest {
 
 ### JPA실행결과 확인방법
 
-/src/main/
+/src/main/resources 경로에 application.properties 파일을 생성하고 아래 코드를 추가
+![jpa실행결과_설정](https://github.com/smeil123/CS_Study/blob/master/image/jpa실행결과_설정.PNG)
+
+
+하고, JPA테스트 결과를 실행하면 아래와 같이 JPA로 실행된 SQL을 볼 수 있다
+![jpa실행결과](https://github.com/smeil123/CS_Study/blob/master/image/jpa실행결과.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODg5NTM1MCwxNjkzMDg2MjM0LC0yMD
-gwMDU4MTAzLDEzODE5MTU3OTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MDAzMjgxOTgsMTY5MzA4NjIzNCwtMj
+A4MDA1ODEwMywxMzgxOTE1NzkyXX0=
 -->
