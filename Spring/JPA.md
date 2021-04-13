@@ -27,6 +27,12 @@ Group group = groupDao.findGroup(user.getGroupId());
 user의 그룹아이디로 group정보를 받아오는 건 알 수 있으나, 둘 사이가 어떤 관계인지는 알 수 없다.
 
 
+### 다시 JPA로 돌아와서
+JPA는 인터페이스로서 자바 표준명세서이다.
+* 인터페이스인 JPA를 사용하기 위해서는 구현체가 필요하다.
+	* 대표적으로 Hibernate, EclipseLine 등
+* 하지만 Spring에서는 이 구현체들을 직접 다루진 않는다.
+	* JPA <- Hibernate <- Spring Data JPA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTY2NTQ3OV19
+eyJoaXN0b3J5IjpbMTc2NzY5NjYyOF19
 -->
