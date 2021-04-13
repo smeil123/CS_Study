@@ -43,8 +43,11 @@ JPA는 인터페이스로서 자바 표준명세서이다.
 
 ### Entity 클래스와 기본 Entity Repository를 생성해서 사용한다
 
+* 두 개 파일은 같은 경로에 존재해야 한다
+* 기본 Repository 없이는 Entity클래스의 역할을 할 수 가 없다.
+* 
 예시 entity 클래스
-```
+```java
 package com.springboot.project.domain.posts;  
   
 import lombok.Builder;  
@@ -87,8 +90,19 @@ public class Posts {
 }
 ```
 
+entity repository
+```java
+package com.springboot.project.domain.posts;  
+  
+import org.springframework.data.jpa.repository.JpaRepository;  
+  
+public interface PostsRepository extends JpaRepository<Posts, Long>{  
+  
+}
 ```
-```
+
+### JPA 테스트 코드
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzkzMDYyOCwxMzgxOTE1NzkyXX0=
+eyJoaXN0b3J5IjpbLTIwODAwNTgxMDMsMTM4MTkxNTc5Ml19
 -->
