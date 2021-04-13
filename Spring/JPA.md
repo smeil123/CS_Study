@@ -160,10 +160,15 @@ public class PostsRepositoryTest {
 /src/main/resources 경로에 application.properties 파일을 생성하고 아래 코드를 추가
 ![jpa실행결과_설정](https://github.com/smeil123/CS_Study/blob/master/image/jpa실행결과_설정.PNG)
 
+mysql 쿼리문 형식으로 결과를 조회하고 싶으면, 아래 코드 한 줄 더 추가
+```
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+```
+
 
 하고, JPA테스트 결과를 실행하면 아래와 같이 JPA로 실행된 SQL을 볼 수 있다
 ![jpa실행결과](https://github.com/smeil123/CS_Study/blob/master/image/jpa실행결과.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDAzMjgxOTgsMTY5MzA4NjIzNCwtMj
-A4MDA1ODEwMywxMzgxOTE1NzkyXX0=
+eyJoaXN0b3J5IjpbMTk4OTQzMjEwNSwtMTUwMDMyODE5OCwxNj
+kzMDg2MjM0LC0yMDgwMDU4MTAzLDEzODE5MTU3OTJdfQ==
 -->
