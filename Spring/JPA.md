@@ -103,6 +103,58 @@ public interface PostsRepository extends JpaRepository<Posts, Long>{
 
 ### JPA 테스트 코드
 
+1. 테스트용 데이터 insert
+2. 데이터 조회하여 값 비교
+
+```java
+import org.junit.After;  
+import org.junit.Test;  
+import org.junit.runner.RunWith;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.boot.test.context.SpringBootTest;  
+import org.springframework.test.context.junit4.SpringRunner;  
+  
+import java.util.List;  
+  
+import static org.assertj.core.api.Assertions.assertThat;  
+  
+@RunWith(SpringRunner.class)  
+@SpringBootTest  
+public class PostsRepositoryTest {  
+    @Autowired  
+    PostsRepository postsRepository;  
+  
+  @After // Junit에서 단위 테스트가 끝날 때마다 수행되는 메소드 지정  
+  // 보통은 배포 전 전체 테스트를 수행할 때 테스트간 데이터 침범을 막기 위함  
+  // ex) 여러 테스트를 동시에 수행하면, 테스트용 데이터가 남아있어 영향을 줄 수 있음  
+  public void cleanup(){  
+        postsRepository.deleteAll();  
+  }  
+  
+    @Test  
+    public void 게시글저장_불러오기(){  
+        //given  
+  String title = "테스트게시글";  
+  String content = "테스트본문";  
+  
+  // posts테이블에 insert/update 실행  
+  // id가 있으면 update, 없으면 insert  postsRepository.save(Posts.builder()  
+                .title(title)  
+                .content(content)  
+                .author("eunji@gmail.com")  
+                .build());  
+  
+  //when  
+  List<Posts> postsList = postsRepository.findAll(); // posts테이블에 있는 모든 데이터 조회  
+  
+  //then  
+  Posts posts = postsList.get(0);  
+  assertThat(posts.getTitle()).isEqualTo(title);  
+  assertThat(posts.getContent()).isEqualTo(content);  
+  }  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAwNTgxMDMsMTM4MTkxNTc5Ml19
+eyJoaXN0b3J5IjpbMTY5MzA4NjIzNCwtMjA4MDA1ODEwMywxMz
+gxOTE1NzkyXX0=
 -->
