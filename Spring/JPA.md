@@ -42,6 +42,11 @@ JPA는 인터페이스로서 자바 표준명세서이다.
 
 ### 실무에서 JPA
 
+
+
+
+
+https://velog.io/@gillog/Entity-DTO-VO-%EB%B0%94%EB%A1%9C-%EC%95%8C%EA%B8%B0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTkxNTc5Ml19
+eyJoaXN0b3J5IjpbLTE3NjY1NjU0NzEsMTM4MTkxNTc5Ml19
 -->
