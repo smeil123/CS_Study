@@ -17,7 +17,16 @@ RDB는 어떻게 데이터를 저장할지에 초점이 맞춰진 기술이나,
 User user = findUser();
 Group group = user.getGroup();
 ```
-이 코드를 보면, User-Group = 부모-자식 
+이 코드를 보면, User-Group = 부모-자식 관계임을 알 수 있다.
+
+반대로, 아래의 코드는 DB조회를 위한 코드이다
+```
+User user = userDao.findUser();
+Group group = groupDao.findGroup(user.getGroupId());
+```
+user의 그룹아이디로 group정보를 받아오는 건 알 수 있으나, 둘 사이가 어떤 관계인지는 알 수 없다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTIyNDc2Nl19
+eyJoaXN0b3J5IjpbMTEwMTY2NTQ3OV19
 -->
