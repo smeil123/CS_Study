@@ -7,8 +7,10 @@
 > 자바 개발 시 자주 사용하는 코드 Getter, Setter, 기본 생성자, toString 등 어노테이션을 자동 생성해준다.
 
 인텔지제이에서 플러그인으로 쉽게 설정할 수 있다.
-설치한 뒤 build.gradle에 아래 코드 추가
-
+설치한 뒤 build.gradle에 아래 코드 추가하고 refresh  해서 라이브러리를 내려받는다
+```
+compile('org.projectlombok:lombok')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjE2OTgxOV19
+eyJoaXN0b3J5IjpbLTEyNzUyMjkxOTRdfQ==
 -->
