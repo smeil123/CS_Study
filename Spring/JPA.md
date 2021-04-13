@@ -39,6 +39,9 @@ JPA는 인터페이스로서 자바 표준명세서이다.
 	* Hibernate외에 다른 구현체로 쉽게 교체하기 위함
 * 저장소 교체의 용이성
 	* RDB외에 다른 저장소로 쉽게 교체하기 위함
+
+### 실무에서 JPA
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjkyMzEzMF19
+eyJoaXN0b3J5IjpbMTM4MTkxNTc5Ml19
 -->
