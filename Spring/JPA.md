@@ -10,7 +10,14 @@ RDB는 어떻게 데이터를 저장할지에 초점이 맞춰진 기술이나,
 
 둘의 시작점이 다르기 때문에, 서로를 이해하는데 어려움이 존재했고 이를 완하하고자 JPA라는 기술을 사용한다.
 
+즉, JPA 를 이용해 SQL에 종속적인 개발을 하지 않고, 객체지향적인 프로그래밍을 할 수 있게 한다.
 
+#### 예시
+```
+User user = findUser();
+Group group = user.getGroup();
+```
+이 코드를 보면, User-Group = 부모-자식 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTUwNDc5Ml19
+eyJoaXN0b3J5IjpbMTI4NTIyNDc2Nl19
 -->
