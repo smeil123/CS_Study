@@ -40,13 +40,9 @@ JPA는 인터페이스로서 자바 표준명세서이다.
 * 저장소 교체의 용이성
 	* RDB외에 다른 저장소로 쉽게 교체하기 위함
 
-### 실무에서 JPA
 
 
 
-
-
-https://velog.io/@gillog/Entity-DTO-VO-%EB%B0%94%EB%A1%9C-%EC%95%8C%EA%B8%B0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY1NjU0NzEsMTM4MTkxNTc5Ml19
+eyJoaXN0b3J5IjpbNjIyNjgzNTcwLDEzODE5MTU3OTJdfQ==
 -->
