@@ -154,7 +154,11 @@ public class PostsRepositoryTest {
   }  
 }
 ```
+
+### JPA실행결과 확인방법
+
+/src/main/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzA4NjIzNCwtMjA4MDA1ODEwMywxMz
-gxOTE1NzkyXX0=
+eyJoaXN0b3J5IjpbMjA5ODg5NTM1MCwxNjkzMDg2MjM0LC0yMD
+gwMDU4MTAzLDEzODE5MTU3OTJdfQ==
 -->
