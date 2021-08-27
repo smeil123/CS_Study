@@ -21,6 +21,8 @@ console.log(a); // 10
 1순위 : const를 최우선적으로 사용한다.
 2순위 : let은 변수 값을 재할당할 필요가 있을 때만 사용한다.
 
+### 메모리 구조, 변수 생셩 원리, 가비지컬렉터
+https://curryyou.tistory.com/275
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjY2MjIwNl19
+eyJoaXN0b3J5IjpbLTU1ODg3OTkzNV19
 -->
