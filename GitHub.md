@@ -23,8 +23,20 @@ git checkout other # other 브랜치로 이동
 git checkout -b other2 # 위 2개를 합친거
 
 git push origin branch명 # 이렇게 푸쉬해야한다
-
 ```
+
+### branch merge
+```
+git checkout master # 합치고자하는 머리로 올라가기(master)
+git merge other
+git push origin master
+```
+
+### 브랜치 삭제
+```
+git branch -d other
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjEzMDAzNF19
+eyJoaXN0b3J5IjpbLTEwODczMzg5MDFdfQ==
 -->
