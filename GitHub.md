@@ -37,6 +37,13 @@ git push origin master
 git branch -d other
 ```
 
+### 그 이외
+```
+git log # 로컬 저장소의 커밋 히스토리 확인
+git grep # 저장소의 파일 내용 검색
+git clone # 원격 저장소를 로컬에 다운로드
+git reset # 로컬 저장소 커밋 취소
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODczMzg5MDFdfQ==
+eyJoaXN0b3J5IjpbLTMxODQzNTkyNF19
 -->
