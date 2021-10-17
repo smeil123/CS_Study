@@ -16,10 +16,15 @@ git status # 저장소에 파일이 추가되었는지 확인
 
 ## branch 사용
 ```
-git branch # 현재 브랜치 목록
+git branch # 현재 브랜치
 
+git branch other # other라는 브랜치 생성
+git checkout other # other 브랜치로 이동
+git checkout -b other2 # 위 2개를 합친거
+
+git push origin branch명 # 이렇게 푸쉬해야한다
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjg2NTkzM119
+eyJoaXN0b3J5IjpbMTcxNjEzMDAzNF19
 -->
