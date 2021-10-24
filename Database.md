@@ -213,8 +213,12 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 	* 수직적 탐색 : 검색의 시작점을 찾는 것 (루트노드 ~ 리프노드)
 	* 수평적 탐색 : 검색의 범위를 찾는 것(리프노드 ~ 리프노드)
 
-### 인덱스 상
+### 인덱스 사용이 불가한 경우
+1. 인덱스 컬럼을 가공한 경우
+	* 검색의 시작점을 찾을 수 없어 풀 스캔을 해야됨
+2. like, OR 조건을 사용한 경우
+	* like의 경우 %대한% d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDgwNjMwMiwtMTI3MDQwNzE4NCwtMT
-kwNjAzMzk0MCwxNDY4NDg2NjQ0XX0=
+eyJoaXN0b3J5IjpbLTExMTg0ODEyNTcsLTEyNzA0MDcxODQsLT
+E5MDYwMzM5NDAsMTQ2ODQ4NjY0NF19
 -->
