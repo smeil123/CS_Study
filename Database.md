@@ -234,7 +234,10 @@ SELECT * FROM 고객
 WHERE TO_NUMBER(생년월일) = 19981221
 ```
 
-**SQL성능은 형변환 함수를 사용하는데서 ㄱ**
+** 오해할 수 있는 SQL 성능 **
+**SQL성능은 형변환 함수를 사용하는데서 결정되는게 아니고 블록 I/O를 줄일 수 있느냐 없느냐에서 결정된다.
+ 개발자가 형변환 함수를 생략해도 옵티마이저가 자동으로 생성한다. 
+ 그러니 형변환 함수를 생략하지 말고 명시해서 환경에 따라 혹은 데이터에 따라 다른 결과값을 내지않도록 주의하자.**
 
 > 반대말하면 인덱스 Range Scan이 가능한 경우는 선두 컬럼이 가공되지 않은 상태로 조건절에 있는 경우!
 
@@ -244,7 +247,7 @@ EX) [장비번호 + 변경일자 + 변경순번] 인덱스가 있는 경우, 장
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTAxOTc0MiwxMDA0NTI0NTA1LDEyNT
+eyJoaXN0b3J5IjpbLTc0NTE3ODU2MywxMDA0NTI0NTA1LDEyNT
 kzNjU3ODksLTEyNzA0MDcxODQsLTE5MDYwMzM5NDAsMTQ2ODQ4
 NjY0NF19
 -->
