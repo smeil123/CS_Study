@@ -200,6 +200,9 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 * 트랜잭션을 지원하지 않는다
 * 분산처리의 기능을 쉽게 제공한다
 * 대부분의 nosql db는 분산처리기능을 목적으로 나왔기 때문에 분산처리 기능을 자체 프레임워크에 포함하고 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYwMzM5NDAsMTQ2ODQ4NjY0NF19
+eyJoaXN0b3J5IjpbMjAxMDUyNTEyOCwtMTkwNjAzMzk0MCwxND
+Y4NDg2NjQ0XX0=
 -->
