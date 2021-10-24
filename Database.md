@@ -234,13 +234,17 @@ SELECT * FROM 고객
 WHERE TO_NUMBER(생년월일) = 19981221
 ```
 
-> 반대로, 인덱스 Range Scan이 가능한 경우는 선두 컬럼이 가공되지 않은 상태로 조건절에 있는 경우!
+**SQL성능은 형변환 함수를 사용하는데서 ㄱ**
+
+> 반대말하면 인덱스 Range Scan이 가능한 경우는 선두 컬럼이 가공되지 않은 상태로 조건절에 있는 경우!
 
 ### 인덱스를 이용한 Sort 연산 생략
 인덱스를 Range Scan할 수 있는 이유는 데이터가 정렬돼 있기 때문에, 인덱스를 잘 활용하면 생략가능하다.
 EX) [장비번호 + 변경일자 + 변경순번] 인덱스가 있는 경우, 장비번호와 변경일자를 = 조건으로 검색하면 ORDER BY는 생략해도 되며, 변경순번 sort는 실행계획은 인덱스를 활용하게 된다.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDUyNDUwNSwxMjU5MzY1Nzg5LC0xMj
-cwNDA3MTg0LC0xOTA2MDMzOTQwLDE0Njg0ODY2NDRdfQ==
+eyJoaXN0b3J5IjpbLTk1OTAxOTc0MiwxMDA0NTI0NTA1LDEyNT
+kzNjU3ODksLTEyNzA0MDcxODQsLTE5MDYwMzM5NDAsMTQ2ODQ4
+NjY0NF19
 -->
