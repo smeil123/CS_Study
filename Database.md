@@ -209,7 +209,8 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 		* 테이블 엑세스 횟수를 줄이는 것(인덱스로 데이터를 필터링할 수 없는 경우 테이블에 엑세스해서 데이터를 비교한다)
 	> 인덱스를 최대한 활용해서 인덱스 스캔을 하는 것이 목적
 
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA0MDcxODQsLTE5MDYwMzM5NDAsMT
-Q2ODQ4NjY0NF19
+eyJoaXN0b3J5IjpbLTQxNDA5MTEyLC0xMjcwNDA3MTg0LC0xOT
+A2MDMzOTQwLDE0Njg0ODY2NDRdfQ==
 -->
