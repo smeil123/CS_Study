@@ -224,8 +224,10 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 	* OR조건과 동일한 이유로 불가능하지만
 	* SQL 옵티마이저가 IN-List Iterator방식으로 UNION ALOL방식으로 풀어주면 Index Range Scan이 가능하다.
 4. 복합인덱스의 경우, 인덱스 선두 컬럼을 조건절에 사용하지 않은 경우
-5.
+
+
+> 반대로, 인덱스 Range Scan이 가능한 경우는 선두 컬럼이 가공되지 않은 상태로 조건절에 있는 경우!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU3MzkxMTgsLTEyNzA0MDcxODQsLT
-E5MDYwMzM5NDAsMTQ2ODQ4NjY0NF19
+eyJoaXN0b3J5IjpbLTkzMTkxODM2NiwtMTI3MDQwNzE4NCwtMT
+kwNjAzMzk0MCwxNDY4NDg2NjQ0XX0=
 -->
