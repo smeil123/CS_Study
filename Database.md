@@ -230,9 +230,9 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 
 ### 인덱스를 이용한 Sort 연산 생략
 인덱스를 Range Scan할 수 있는 이유는 데이터가 정렬돼 있기 때문에, 인덱스를 잘 활용하면 생략가능하다.
-EX) [장비번호 + 변경일자 + 변경순번] 인덱스가 있는 경우, 장비번호와 변경일자를 = 조건으로 검색하면 변경순번 sort는 생략해도 되고, 
+EX) [장비번호 + 변경일자 + 변경순번] 인덱스가 있는 경우, 장비번호와 변경일자를 = 조건으로 검색하면 ORDER BY는 생략해도 되며, 변경순번 sort는 실행계획은 인덱스를 활용하게 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjU0MTAxNCwtMTI3MDQwNzE4NCwtMT
+eyJoaXN0b3J5IjpbMTI1OTM2NTc4OSwtMTI3MDQwNzE4NCwtMT
 kwNjAzMzk0MCwxNDY4NDg2NjQ0XX0=
 -->
