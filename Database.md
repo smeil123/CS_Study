@@ -209,8 +209,10 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 		* 테이블 엑세스 횟수를 줄이는 것(인덱스로 데이터를 필터링할 수 없는 경우 테이블에 엑세스해서 데이터를 비교한다)
 	> 인덱스를 최대한 활용해서 인덱스 스캔을 하는 것이 목적
 
-* 
+* 수직적 탐색과 수평적 탐색을 통해 인덱스를 활용하면서 검색을 하는 것임을 이해해야한다.
+	* 수직적 탐색 : 검색의 시작점을 찾는 것 (루트노드 ~ 리프노드)
+	* 수평적 탐색 : 검색의 범위를 찾는 것(리프노드 ~ 리프노드)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDA5MTEyLC0xMjcwNDA3MTg0LC0xOT
-A2MDMzOTQwLDE0Njg0ODY2NDRdfQ==
+eyJoaXN0b3J5IjpbMTMyOTQ2NTkzMiwtMTI3MDQwNzE4NCwtMT
+kwNjAzMzk0MCwxNDY4NDg2NjQ0XX0=
 -->
