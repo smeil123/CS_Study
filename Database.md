@@ -217,8 +217,12 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 1. 인덱스 컬럼을 가공한 경우
 	* 검색의 시작점을 찾을 수 없어 풀 스캔을 해야됨
 2. like, OR 조건을 사용한 경우
-	* like의 경우 %대한% d
+	* like의 경우 %대한% 을 검색한 경우는 당연 풀스캔
+	* OR조건은 각각의 조건의 시작점을 찾아야되기에 한 시작점을 짚을 수 없음
+	   * 대신, union all 로 쿼리문을 작성하면 Index Range Scan 가능
+3. IN 조건절을 사용한 겨웅
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg0ODEyNTcsLTEyNzA0MDcxODQsLT
-E5MDYwMzM5NDAsMTQ2ODQ4NjY0NF19
+eyJoaXN0b3J5IjpbOTM1Mjk5MTY4LC0xMjcwNDA3MTg0LC0xOT
+A2MDMzOTQwLDE0Njg0ODY2NDRdfQ==
 -->
