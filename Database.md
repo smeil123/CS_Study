@@ -201,7 +201,7 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 * 분산처리의 기능을 쉽게 제공한다
 * 대부분의 nosql db는 분산처리기능을 목적으로 나왔기 때문에 분산처리 기능을 자체 프레임워크에 포함하고 있다.
 
-### 인덱스 튜닝
+## 인덱스 튜닝
 * 인덱스는 큰 테이블에서 소량의 데이터 검색시 성능을 좋게해주는 것이다
 * 튜닝의 핵심은
 	* 인덱스 스캔 효율화 튜닝
@@ -212,7 +212,9 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 * 수직적 탐색과 수평적 탐색을 통해 인덱스를 활용하면서 검색을 하는 것임을 이해해야한다.
 	* 수직적 탐색 : 검색의 시작점을 찾는 것 (루트노드 ~ 리프노드)
 	* 수평적 탐색 : 검색의 범위를 찾는 것(리프노드 ~ 리프노드)
+
+### 인덱스 상
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTQ2NTkzMiwtMTI3MDQwNzE4NCwtMT
+eyJoaXN0b3J5IjpbMTkwMDgwNjMwMiwtMTI3MDQwNzE4NCwtMT
 kwNjAzMzk0MCwxNDY4NDg2NjQ0XX0=
 -->
