@@ -245,9 +245,13 @@ WHERE TO_NUMBER(생년월일) = 19981221
 인덱스를 Range Scan할 수 있는 이유는 데이터가 정렬돼 있기 때문에, 인덱스를 잘 활용하면 생략가능하다.
 EX) [장비번호 + 변경일자 + 변경순번] 인덱스가 있는 경우, 장비번호와 변경일자를 = 조건으로 검색하면 ORDER BY는 생략해도 되며, 변경순번 sort는 실행계획은 인덱스를 활용하게 된다.
 
+### 인덱스 선정 조건
+1. 조건절에 항상 사용하거나, 자주 사용하는 컬럼 
+2. '=' 조건으로 자주 조회되는 컬럼
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjkyOTUxNDQsMTAwNDUyNDUwNSwxMj
-U5MzY1Nzg5LC0xMjcwNDA3MTg0LC0xOTA2MDMzOTQwLDE0Njg0
-ODY2NDRdfQ==
+eyJoaXN0b3J5IjpbLTE0ODAzMjMzNTcsLTE4NjkyOTUxNDQsMT
+AwNDUyNDUwNSwxMjU5MzY1Nzg5LC0xMjcwNDA3MTg0LC0xOTA2
+MDMzOTQwLDE0Njg0ODY2NDRdfQ==
 -->
