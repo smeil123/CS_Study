@@ -221,8 +221,11 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 	* OR조건은 각각의 조건의 시작점을 찾아야되기에 한 시작점을 짚을 수 없음
 	   * 대신, union all 로 쿼리문을 작성하면 Index Range Scan 가능
 3. IN 조건절을 사용한 겨웅
-	
+	* OR조건과 동일한 이유로 불가능하지만
+	* SQL 옵티마이저가 IN-List Iterator방식으로 UNION ALOL방식으로 풀어주면 Index Range Scan이 가능하다.
+4. 복합인덱스의 경우, 인덱스 선두 컬럼을 조건절에 사용하지 않은 경우
+5.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1Mjk5MTY4LC0xMjcwNDA3MTg0LC0xOT
-A2MDMzOTQwLDE0Njg0ODY2NDRdfQ==
+eyJoaXN0b3J5IjpbLTE4NDU3MzkxMTgsLTEyNzA0MDcxODQsLT
+E5MDYwMzM5NDAsMTQ2ODQ4NjY0NF19
 -->
