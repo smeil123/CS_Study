@@ -224,7 +224,13 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 	* OR조건과 동일한 이유로 불가능하지만
 	* SQL 옵티마이저가 IN-List Iterator방식으로 UNION ALOL방식으로 풀어주면 Index Range Scan이 가능하다.
 4. 복합인덱스의 경우, 인덱스 선두 컬럼을 조건절에 사용하지 않은 경우
-
+5. 자동형변환이 된 경우
+```sql
+SELECT * FROM 고객
+WHERE 생년월일 = 19981221
+// 이 경우 자동 형변환되어 테이블 전체 스캔이 된다
+SELEC
+```
 
 > 반대로, 인덱스 Range Scan이 가능한 경우는 선두 컬럼이 가공되지 않은 상태로 조건절에 있는 경우!
 
@@ -233,6 +239,6 @@ ANSI/IOS SQL표준에서 정의한 4가지 트랜잭션 격리성 수준은 다�
 EX) [장비번호 + 변경일자 + 변경순번] 인덱스가 있는 경우, 장비번호와 변경일자를 = 조건으로 검색하면 ORDER BY는 생략해도 되며, 변경순번 sort는 실행계획은 인덱스를 활용하게 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTM2NTc4OSwtMTI3MDQwNzE4NCwtMT
-kwNjAzMzk0MCwxNDY4NDg2NjQ0XX0=
+eyJoaXN0b3J5IjpbMTgxODIwMjA0NSwxMjU5MzY1Nzg5LC0xMj
+cwNDA3MTg0LC0xOTA2MDMzOTQwLDE0Njg0ODY2NDRdfQ==
 -->
