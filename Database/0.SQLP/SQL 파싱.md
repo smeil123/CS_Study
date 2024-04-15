@@ -10,7 +10,7 @@
 
 # SQL 처리 과정
 
-![Untitled](./SQL 파싱/Untitled.png)
+![Untitled](https://github.com/smeil123/CS_Study/blob/master/Database/0.SQLP/SQL%20파싱/Untitled.png)
 
 크게 보면 4가지 단계이다.
 
@@ -100,8 +100,7 @@ SQL 커서에 대해 **`library cache lock/pin`**을 shared 모드로 획득하�
 
 ### Shared Pool
 
-![Untitled](./SQL 파싱/Untitled 1.png)
-
+![Untitled](https://github.com/smeil123/CS_Study/blob/master/Database/0.SQLP/SQL%20파싱/Untitled%201.png)
 - SGA 영역 내 존재
 - 파싱 작업을 위해 사용
     - Library Cache : SQL 공유 커서(+프로시저, 함수, 패키지, 트리거, PL/SQL) 및 데이터베이스 오브젝트에 대한 정보 관리
