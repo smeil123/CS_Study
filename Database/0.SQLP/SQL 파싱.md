@@ -1,13 +1,4 @@
 
----
-layout: post
-title: "SQL 파싱"
-subtitle: "[Tips]"
-date: 2024-04-15 10:00
-background: 
-tag: [SQLP]
----
-
 # SQL 파싱
 
 ---
