@@ -10,7 +10,7 @@
 
 # SQL 처리 과정
 
-![Untitled](SQL 파싱/Untitled.png)
+![Untitled](./SQL 파싱/Untitled.png)
 
 크게 보면 4가지 단계이다.
 
@@ -20,7 +20,7 @@
 3. 최적화 단계 수행(Optimizer)
 4. Row-Source Generator
 
-        <aside>
+       
         🔥 리마인드
         
         ## 소프트 파싱
@@ -36,8 +36,6 @@
         캐시에서 찾지 못해 `최적화` 및 `로우 소스 생성` 단계가지 모두 거치는 것
         
         하드 파싱은 CPU를 많이 소비하는 몇 안되는 작업 중 하나
-        
-        </aside>
 
 4가지 단계를 상세하게 보면
 
@@ -53,18 +51,16 @@
 4. 만약 캐싱된 값을 못찾으면, **shared pool 래치 획득** 적절한 프리 청크를 찾아 아래 과정 수행
     1. SQL을 저장하기 위한 공간을 확보
 
-        <aside>
         🔥 **library 래치 경합** : 소프트파싱, 하드파싱 모두 발생
         **shared pool 래치 경합** : 하드파싱에서 발생
         
-        </aside>
 
-> 라이브러리 래치 : 라이브러리 캐시 영역에 대한 탐색 동기화
-라이브러리 캐시 락.핀 : 핸들과 LCO를 보호하는 역할
-  * 소프트 파싱때 래치 경합은 발생하나 락 경합은 발생하지 않음, 락은 shared모드로 접근한다
-  * DML문은 shared모드로 획득하여 경합X
-  * DDL문은 exclusive 모드로 획득하여 경합O
-> 
+        > 라이브러리 래치 : 라이브러리 캐시 영역에 대한 탐색 동기화
+        라이브러리 캐시 락.핀 : 핸들과 LCO를 보호하는 역할
+          * 소프트 파싱때 래치 경합은 발생하나 락 경합은 발생하지 않음, 락은 shared모드로 접근한다
+          * DML문은 shared모드로 획득하여 경합X
+          * DDL문은 exclusive 모드로 획득하여 경합O
+        > 
 
 ## (2) SQL 최적화
 
@@ -104,7 +100,7 @@ SQL 커서에 대해 **`library cache lock/pin`**을 shared 모드로 획득하�
 
 ### Shared Pool
 
-![Untitled](SQL 파싱/Untitled 1.png)
+![Untitled](./SQL 파싱/Untitled 1.png)
 
 - SGA 영역 내 존재
 - 파싱 작업을 위해 사용
