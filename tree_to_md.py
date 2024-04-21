@@ -7,8 +7,9 @@ def starts_with_digit(s):
 
 # 현재 작업 디렉토리를 기준으로 한 상대 경로 추출
 def relative_path_from_cwd(path):
-    re.sub(r'\s', '%20', os.path.relpath(path))
-    return re.sub(r'\s', '%20', os.path.relpath(path))
+    s_path = re.sub(r'\s', '%20', os.path.relpath(path))
+    s_path = re.sub(r'\\', '/', s_path)
+    return s_path
 
 def generate_markdown_tree(root_dir, depth=0):
     markdown_tree = ""
