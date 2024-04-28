@@ -55,7 +55,6 @@ Misses in library cache during parse : 1 (캐시에서 찾지 못한 횟수 1회
 1. SQL 커서가 `Shared Pool`(라이브버리 캐시) 에 캐싱돼 있는지 확인 → 이 때 **라이브러리 래치 획득**
 
 &ensp; &ensp; 1. 찾기 위해 SQL ASCII → 해시값 변환, 해싱 알고리즘으로 찾음
-
 &ensp; &ensp; 1. 이때, 해시값이 동일한 SQL문을 찾더라도, 사용자나 옵티마이저 파라미터가 다르면 다른 쿼리로 취급
 
 1. 만약 캐싱된 값을 못찾으면, **shared pool 래치 획득** 적절한 프리 청크를 찾아 아래 과정 수행
